@@ -1,0 +1,22 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: README
+parts:
+  - caption: My Guide Websites
+    numbered: false
+    chapters:
+      - url: https://breezy-codes.github.io/computer-networks-guide
+        title: Computer Networks Guide
+      - url: https://breezy-codes.github.io/cryptography-guide
+        title: Cryptography Guide
+      - url: https://breezy-codes.github.io/quantum-cryptography-guide
+        title: Quantum Cryptography Guide
+#  - caption: Blog Posts
+#    numbered: false
+#    chapters:
+#     - file: blog-posts/2023-11-04-creating-form-spam.md
+#     - file: blog-posts/2024-04-03-picking-cybersecurity.md
+#     - file: blog-posts/2024-04-08-sucked-at-maths-in-school.md
+#     - file: 
