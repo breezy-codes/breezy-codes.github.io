@@ -1,8 +1,6 @@
-# About Me
+# I'm Brianna but you can call me Breezy
 
-## I'm Brianna but you can call me Breezy
-
-I'm currently pursuing an Honours Bachelor's degree in Cyber Security at Deakin University, with a WAM of 93 and a grade average of 96.25 for 2024. My commitment to academic excellence has earned me awards such as the Deakin Scholarship for Excellence and the Associate Dean Summer Research Scholarship. My Honours research focuses on developing a mathematical framework for optical xhaul network design to support reconfigurable 6G networks using O-RAN technology.
+I'm currently pursuing an Honours Bachelor's degree in Cybersecurity at Deakin University, with a WAM of 93 and a grade average of 96.25 for 2024. My commitment to academic excellence has earned me awards such as the Deakin Scholarship for Excellence and the Associate Dean Summer Research Scholarship. My Honours research focuses on developing a mathematical framework for optical xhaul network design to support reconfigurable 6G networks using O-RAN technology.
 
 ## My Academic Journey
 
@@ -22,6 +20,9 @@ Through my university subjects and side projects I’ve developed skills in nume
     <img src="https://github-profile-trophy.vercel.app/?username=breezy-codes&theme=onedark&row=1" alt="GitHub Profile Trophies" style="max-width: 100%;" />
 </div>
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 <div align="center">
   <h3>Languages</h3>
   <a href="https://skillicons.dev">
@@ -36,7 +37,7 @@ Through my university subjects and side projects I’ve developed skills in nume
     </a>
 </div>
 
-## My GitHub Stats
+---
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
     <div>
@@ -46,6 +47,8 @@ Through my university subjects and side projects I’ve developed skills in nume
         <img src="https://github-readme-stats-hvpm.vercel.app/api/top-langs/?username=breezy-codes&langs_count=12&layout=compact&theme=material-palenight&border_radius=10&size_weight=0.5&count_weight=0.5" alt="top langs" width="300" />
     </div>
 </div>
+
+---
 
 ## About Me
 
@@ -85,134 +88,23 @@ I recently submitted my first paper on Optical X-haul for Beyond 5G to a confere
 
 ## Academic and Research Accomplishments
 
-- **Discrete Mathematics and Cryptography:** Scored 95 in Discrete Mathematics, sparking a passion for Cryptography. This interest led to exploring Quantum Computing, where I took on the challenging topic of Quantum Cryptography. My report was selected for the *Deakin Maths Yearbook*, making me the first person featured twice in the same year.
+My academic journey has been driven by a deep interest in telecommunications and computational mathematics, particularly in the field of Radio Access Networks (RAN) and 6G technology. My Honours research focuses on developing a mathematical framework for optical xhaul network design, building upon previous work during my Associate Deakin Research Summer Scholarship.
 
-- **Research Summer Scholarship (2023/2024):** Awarded the Associate Deakin Research Summer Scholarship. Initially, I delved into computer networks, but soon found my interest in Radio Access Networks (RAN), including O-RAN and 6G resource allocation. Living in rural Australia and experiencing the lack of phone service first-hand motivates my ongoing research in this area.
+I've also led the tutorials team for [SplashKit](https://github.com/splashkit) as part of my Capstone A project, achieving a perfect grade of 100, and developed a series of guides to help students grasp complex concepts in computer networks and cryptography.
 
-- **Current Honours Research:** I have commenced Honours in telecommunications and computational mathematics, developing a mathematical framework for optical xhaul network design. This work builds upon my summer research and aligns with my long-term goals in telecommunications.
-
-- **Conference Papers:** Recently submitted my first research paper to a conference, with three additional papers in progress, all aimed at contributing to 5G/6G and RAN technology.
-
-- **Leadership in Capstone Projects:** Served as a team leader in the Capstone A subject, guiding the tutorials team for SplashKit within Thoth Tech. My leadership and contributions were recognised with a grade of 100.
-
-- **Tutorial Series Creator:** Developed a tutorial series to help fellow students understand complex computer network concepts, which contributed to achieving a perfect score in the subject.
-
-- **Future Plans:** Preparing to begin my Honours thesis on O-RAN and 6G networks this year, with a vision to extend this research into a PhD starting in 2026.
-
----
-
-### Completed Subjects
-
-::::{grid}
-:gutter: 2
-:margin: 1
-
-:::{grid-item}
-:columns: 12 6
-
-- Introduction to Programming (C++) - D/70
-- Object Oriented Programming (C#) - HD/96
-- Secure Coding (Java, MySql) - HD/95
-- Computer Systems - HD/85
-- Introduction to Cybersecurity - HD/85
-- Discrete Mathematics - HD/95
-- Cryptography - HD/90
-- Computer Networks - HD/100
-- Professional Practices - HD/83
-- Data Structures and Algorithms - HD/95  
-:::
-
-:::{grid-item}
-:columns: 12 6
-:child-align: justify
-
-- Network Forensics - HD/97
-- Computer Forensics - HD/97
-- Cybersecurity Analytics - HD/95
-- Applied Frontiers of Cryptography at RMIT
-- Optimisation and Constraint Programming - HD/100
-- Advanced Network Security - HD/90
-- Ethical Hacking - HD/95
-- Capstone A - HD/100
-:::
-::::
+For a detailed overview of my accomplishments, visit [Academic and Research Accomplishments](content/accomplishments.md) and see [Research](content/research.md) to learn more about my research projects.
 
 ## Work Experience
 
-My work experience so far at Deakin University:
+I have held multiple roles at Deakin University, ranging from academic support to curriculum development. These positions have honed my skills in both technical development and student support.
 
-::::{grid}
-:gutter: 2
+For a complete summary of my work experience, visit [Work Experience](content/work-experience.md).
 
-:::{grid-item-card} **Sessional Academic**
+## Capstone Subjects
 
-**March 2024 to Present**
+My Capstone projects have provided valuable opportunities to develop both technical and leadership skills. In Capstone A, I led the SplashKit tutorials team for [Thoth Tech](https://github.com/thoth-tech), and my efforts were rewarded with a perfect grade of 100. Capstone B focuses on technical contributions to SplashKit core and developing maths tutorials for [The Programmer's Field Guide](https://github.com/splashkit/the-programmers-field-guide).
 
-Developing quizzes in NUMBAS and creating graph theory extensions using JME programming for SIT192.
-
-:::
-
-:::{grid-item-card} **Maths Mentor**
-
-**February 2024 to Present**
-
-Assisting students with maths problems through online sessions weekly.
-
-:::
-::::
-
-::::{grid}
-:gutter: 2
-
-:::{grid-item-card} **SAP Learning Resource Developer**
-
-**August 2023 to February 2024**
-
-Developed learning materials for Computer Networks, conducted focus groups to improve these materials and enhance student engagement.
-:::
-
-:::{grid-item-card} **SMS Evaluation Team**
-
-**November to December 2023**
-
-Facilitated evaluations and improvements for the student mentoring program.
-
-:::
-::::
-
-## Certifications
-
-::::{grid}
-:gutter: 3 4 4 4
-:margin: 1 2 1 2
-
-:::{grid-item}
-:columns: 12 6 6 6
-**Certified Secure Computer User**
-
-EC Council - 2023
-
-```{image} img/content/CASE.png
-:width: auto
-:class: sd-m-auto
-:name: CASE
-```
-:::
-
-:::{grid-item}
-:columns: 12 6 6 6
-**Certified Application Security Engineer**
-
-EC Council - 2023
-
-```{image} img/content/CSCU.png
-:width: auto
-:class: sd-m-auto
-:name: CSCU
-```
-:::
-::::
-
+To learn more about my Capstone contributions, please visit [Capstone Projects](content/capstone.md).
 
 ## Get in Touch
 
