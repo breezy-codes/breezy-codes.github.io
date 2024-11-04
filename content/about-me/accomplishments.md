@@ -58,12 +58,37 @@ A list of subjects I have completed, showcasing my strong academic record across
 
 # Certifications
 
-### Certified Secure Computer User
+::::{grid}
+:gutter: 3 4 4 4
+:margin: 1 2 1 2
+
+:::{grid-item}
+:columns: 12 6 6 6
+:child-align: center
+
+**Certified Secure Computer User**  
 *EC Council - 2023*
 
-![Certified Secure Computer User](../img/content/CASE.png)
+```{image} ../../img/content/CASE.png
+:width: 500px
+:class: sd-m-auto
+:name: CASE
+```
 
-### Certified Application Security Engineer
+:::
+
+:::{grid-item}
+:columns: 12 6 6 6
+:child-align: center
+
+**Certified Application Security Engineer**  
 *EC Council - 2023*
 
-![Certified Application Security Engineer](../img/content/CSCU.png)
+```{image} ../../img/content/CSCU.png
+:width: 500px
+:class: sd-m-auto
+:name: CSCU
+```
+
+:::
+::::

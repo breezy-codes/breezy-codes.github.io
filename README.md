@@ -8,8 +8,6 @@ I'm currently pursuing an Honours Bachelor's degree in Cybersecurity at Deakin U
 
 Throughout my studies, I've achieved several academic highlights, including features in the *Deakin Maths Yearbook* for my HD reports on Cryptography (SIT192) and Quantum Cryptography (SIT281). My current research focuses on telecommunication networks, particularly the planning and optimisation of optical xhaul networks to support reconfigurable O-RAN in 6G networks. This work builds on my previous research during the Associate Deakin Research Summer Scholarship, where I initially explored computer networks and developed a strong interest in Radio Access Networks (RAN). I am now actively working on several papers, including one I've submitted to a conference. I'm also preparing a survey paper for IEEE on reconfigurable RAN for beyond 5G, discussing network planning, resource allocation, and the challenges of implementing beyond 5G networks.
 
-In addition to my research, I led the tutorials team for [SplashKit](https://github.com/splashkit) as part of my Capstone A project, where I guided the team and worked on my own contributions to the project. Visit [Capstone Projects](content/capstone.md) to learn more about my Capstone contributions that helped me achieve a perfect grade of 100.
-
 For a detailed overview of my accomplishments, visit [Academic and Research Accomplishments](content/accomplishments.md) and see [Research](content/research.md) to learn more about my research projects.
 
 ---
@@ -94,15 +92,7 @@ Now, as an Honours student in telecommunications and computational mathematics, 
 
 ![Image Description](/img/content/beach.jpeg)
 
-I recently submitted my first paper on Optical X-haul for Beyond 5G to a conference, and I'm working on three additional papers. My current focus is on expanding my research in O-RAN and 6G networks, with plans to pursue a PhD in this area starting in late 2026.
-
-## Academic and Research Accomplishments
-
-My academic journey has been driven by a deep interest in telecommunications and computational mathematics, particularly in the field of Radio Access Networks (RAN) and 6G technology. My Honours research focuses on developing a mathematical framework for optical xhaul network design, building upon previous work during my Associate Deakin Research Summer Scholarship.
-
-I've also led the tutorials team for [SplashKit](https://github.com/splashkit) as part of my Capstone A project, achieving a perfect grade of 100, and developed a series of guides to help students grasp complex concepts in computer networks and cryptography.
-
-For a detailed overview of my accomplishments, visit [Academic and Research Accomplishments](content/accomplishments.md) and see [Research](content/research.md) to learn more about my research projects.
+---
 
 ## Work Experience
 
@@ -110,11 +100,15 @@ I have held multiple roles at Deakin University, ranging from academic support t
 
 For a complete summary of my work experience, visit [Work Experience](content/work-experience.md).
 
+---
+
 ## Capstone Subjects
 
 My Capstone projects have provided valuable opportunities to develop both technical and leadership skills. In Capstone A, I led the SplashKit tutorials team for [Thoth Tech](https://github.com/thoth-tech), and my efforts were rewarded with a perfect grade of 100. Capstone B focuses on technical contributions to SplashKit core and developing maths tutorials for [The Programmer's Field Guide](https://github.com/splashkit/the-programmers-field-guide).
 
 To learn more about my Capstone contributions, please visit [Capstone Projects](content/capstone.md).
+
+---
 
 ## Get in Touch
 
