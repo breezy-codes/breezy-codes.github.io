@@ -1,4 +1,4 @@
-# Academic and Research Accomplishments
+# Academic Accomplishments
 
 ## Highlights
 
