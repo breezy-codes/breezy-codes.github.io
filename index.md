@@ -1,11 +1,10 @@
 # I'm Brianna but you can call me Breezy
 
-I'm currently pursuing an Honours Bachelor's degree in Cyber Security at Deakin University, where I maintain a WAM of 91. My dedication to academic excellence has earned me awards such as the Deakin Scholarship for Excellence and the Associate Dean Summer Research Scholarship.
-
+I'm currently pursuing an Honours Bachelor's degree in Cyber Security at Deakin University, with a WAM of 93 and a grade average of 96.25 for 2024. My commitment to academic excellence has earned me awards such as the Deakin Scholarship for Excellence and the Associate Dean Summer Research Scholarship. My Honours research focuses on developing a mathematical framework for optical xhaul network design to support reconfigurable 6G networks using O-RAN technology.
 
 ## My Academic Journey
 
-My academic highlights include features in the Deakin Maths Yearbook for my HD reports on Cryptography (SIT192) and Quantum Cryptography (SIT281). I'm also involved in research, which focuses on telecommunication networks, specifically Radio Access Networks (RAN) and the use of O-RAN for reconfigurable 6G networks. I am working on a paper for IEEE on the reconfigurable RAN for beyond 5G which will be published later this year.
+Throughout my studies, I've achieved several academic highlights, including features in the Deakin Maths Yearbook for my HD reports on Cryptography (SIT192) and Quantum Cryptography (SIT281). My current research focuses on telecommunication networks, particularly the planning and optimisation of optical xhaul networks, support reconfigurable O-RAN in 6G networks. I recently submitted my first paper on this topic to a conference and am actively working on several more. Additionally, I'm preparing a survey paper for IEEE on reconfigurable RAN for beyond 5G, discussing networking planning, resource allocation and the challenges of beyond 5G networks.
 
 ## Projects
 
@@ -32,8 +31,7 @@ Discover the intersection of quantum computing and cryptography. Learn about qua
 
 ## My skill Set
 
-Through my university subjects and side projects I’ve developed skills in numerous programming languages. In addition I’ve developed skills in tools and software that help boost my skill set. Recently, I switched from Windows to Linux to take advantage of its open-source nature and enhanced security.
-
+Through my university subjects and side projects I’ve developed skills in numerous programming languages. In addition, I’ve developed skills in tools and software that help boost my skill set. Recently, I switched from Windows to Linux to take advantage of its open-source nature and enhanced security.
 
 <div align="center">
     <a href="https://skillicons.dev">
@@ -57,7 +55,6 @@ Through my university subjects and side projects I’ve developed skills in nume
         <img src="https://github-readme-stats-hvpm.vercel.app/api/top-langs/?username=breezy-codes&langs_count=12&layout=compact&theme=material-palenight&border_radius=10&size_weight=0.5&count_weight=0.5" alt="top langs" width="300" />
     </div>
 </div>
-
 
 ## About Me
 
@@ -87,19 +84,31 @@ I quickly became interested in Cryptography after studying Discrete Mathematics 
 :::
 ::::
 
-Over the 2023/2024 summer, I was lucky enough to receive the Associate Deakin Research Summer Scholarship. Where I commenced research initially into computer networks. I was given the opportunity to explore and find my own area of interest as my supervisor saw potential in me to go on to do a PhD. During this, I stumbled into the world of Radio Access Networks, where I started to explore into O-RAN and resource allocation for 6G networks.
+Over the 2023/2024 summer, I was fortunate to receive the Associate Deakin Research Summer Scholarship, where I began research into computer networks. Given the freedom to explore, I delved into areas of interest with my supervisor’s encouragement, ultimately discovering a passion for Radio Access Networks (RAN). This led me to focus on O-RAN and resource allocation for 6G networks.
+
+Now, as an Honours student in telecommunications and computational mathematics, I’m developing a mathematical framework for optical xhaul network design, aimed at supporting cost-effective deployment strategies for future reconfigurable RAN and xhaul networks. Growing up in rural Australia, I understand firsthand the challenges of limited phone service, which fuels my dedication to this research.
 
 ![Image Description](/img/content/beach.jpeg)
 
-Living in rural Australia and knowing the struggle all too well with the lack of phone service, this really encouraged my passion to research this area. I intend to continue researching into O-RAN and 6G networks for my Honours thesis starting later this year and my PhD I hope to start in 2026. At the moment though, I’m focused on publishing my first research paper in this area.
+I recently submitted my first paper on Optical X-haul for Beyond 5G to a conference, and I'm working on three additional papers. My current focus is on expanding my research in O-RAN and 6G networks, with plans to pursue a PhD in this area starting in late 2026.
 
-### Academic Accomplishments
+## Academic and Research Accomplishments
 
-- **Excellence in Discrete Mathematics and Cryptography:** Achieved a grade of 95 in Discrete Mathematics, which ignited a passion for Cryptography. This led to further exploration in Quantum Computing and Quantum Cryptography, resulting in two reports being published in the [Deakin Maths Yearbook](https://nla.gov.au/nla.obj-3336557334/view). This accomplishment made me the first person to be featured twice in the same year.
-- **Associate Deakin Research Summer Scholarship Recipient (2023/2024):** Awarded a summer research scholarship, initially focusing on computer networks before venturing into Radio Access Networks (RAN) and O-RAN technologies. This research is foundational for my upcoming Honours Research.
-- **Tutorial Series Creator for Computer Networks:** Developed a series of tutorials aimed at assisting fellow students with complex concepts in computer networks, helping me to achieve a score of 100 in the subject.
-- **Research Publication:** Working towards publishing my first research paper this year. In addition, I’ve been encouraged by my tutor from my network forensics subject to publish the project and report I did during the subject where I developed and evaluated machine learning models for detecting spam SMS in cellular networks.
-- **Honours Thesis and PhD Focus:** Preparing to begin my Honours thesis on O-RAN and 6G networks later this year, with a long-term goal to extend this research into a PhD starting in 2026.
+- **Discrete Mathematics and Cryptography:** Scored 95 in Discrete Mathematics, sparking a passion for Cryptography. This interest led to exploring Quantum Computing, where I took on the challenging topic of Quantum Cryptography. My report was selected for the *Deakin Maths Yearbook*, making me the first person featured twice in the same year.
+
+- **Research Summer Scholarship (2023/2024):** Awarded the Associate Deakin Research Summer Scholarship. Initially, I delved into computer networks, but soon found my interest in Radio Access Networks (RAN), including O-RAN and 6G resource allocation. Living in rural Australia and experiencing the lack of phone service first-hand motivates my ongoing research in this area.
+
+- **Current Honours Research:** I have commenced Honours in telecommunications and computational mathematics, developing a mathematical framework for optical xhaul network design. This work builds upon my summer research and aligns with my long-term goals in telecommunications.
+
+- **Conference Papers:** Recently submitted my first research paper to a conference, with three additional papers in progress, all aimed at contributing to 5G/6G and RAN technology.
+
+- **Leadership in Capstone Projects:** Served as a team leader in the Capstone A subject, guiding the tutorials team for SplashKit within Thoth Tech. My leadership and contributions were recognised with a grade of 100.
+
+- **Tutorial Series Creator:** Developed a tutorial series to help fellow students understand complex computer network concepts, which contributed to achieving a perfect score in the subject.
+
+- **Future Plans:** Preparing to begin my Honours thesis on O-RAN and 6G networks this year, with a vision to extend this research into a PhD starting in 2026.
+
+--- 
 
 ### Completed Subjects
 
