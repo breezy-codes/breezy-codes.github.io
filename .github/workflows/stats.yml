@@ -23,3 +23,4 @@ jobs:
           SHOW_PROJECTS: "False"
           SHOW_OS: "True"
           SHOW_LANGUAGE: "True"
+          SHOW_SHORT_INFO: "False"
