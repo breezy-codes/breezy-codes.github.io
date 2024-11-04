@@ -1,4 +1,6 @@
-# I'm Brianna but you can call me Breezy
+# About Me
+
+## I'm Brianna but you can call me Breezy
 
 I'm currently pursuing an Honours Bachelor's degree in Cyber Security at Deakin University, with a WAM of 93 and a grade average of 96.25 for 2024. My commitment to academic excellence has earned me awards such as the Deakin Scholarship for Excellence and the Associate Dean Summer Research Scholarship. My Honours research focuses on developing a mathematical framework for optical xhaul network design to support reconfigurable 6G networks using O-RAN technology.
 
@@ -8,50 +10,37 @@ Throughout my studies, I've achieved several academic highlights, including feat
 
 ## Projects
 
-During my time at university so far I've developed a passion for teaching and sharing knowledge. I've created guides on various topics such as computer networks, cryptography, and quantum cryptography. These guides are designed to help students understand complex concepts through tutorials, examples, and Python implementations.
+During my time at university, I've developed a passion for teaching and sharing knowledge. I’ve created guides on topics such as computer networks, cryptography, and quantum cryptography, designed to help students understand complex concepts through tutorials, examples, and Python implementations.
 
-::::{grid}
-:gutter: 3
-
-:::{grid-item-card} **[Computer Networks](https://breezy-codes.github.io/computer-networks-guide)**
-
-A comprehensive guide to understanding computer networks. Includes tutorials on Wireshark, CISCO Packet Tracer, and Python simulations.
-:::
-
-:::{grid-item-card} **[Cryptography](https://breezy-codes.github.io/cryptography-guide)**
-
-Explore cryptographic concepts with mathematical foundations, algorithm guides (RSA, AES, ECC), and historical ciphers. Includes Python implementations.
-:::
-
-:::{grid-item-card} **[Quantum Cryptography](https://breezy-codes.github.io/quantum-cryptography-guide)**
-
-Discover the intersection of quantum computing and cryptography. Learn about quantum principles, QKD, and how quantum computing affects cryptography.
-:::
-::::
+To explore my guides in detail, visit my [Projects Page](content/projects.md).
 
 ## My skill Set
 
 Through my university subjects and side projects I’ve developed skills in numerous programming languages. In addition, I’ve developed skills in tools and software that help boost my skill set. Recently, I switched from Windows to Linux to take advantage of its open-source nature and enhanced security.
 
 <div align="center">
-    <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=md,py,cpp,cs,dotnet,latex,anaconda,bootstrap,react,js,java" alt="Languages" style="max-width: 98%; height: 50px; margin-bottom: 5px;" />
-    </a>
+    <img src="https://github-profile-trophy.vercel.app/?username=breezy-codes&theme=onedark&row=1" alt="GitHub Profile Trophies" style="max-width: 100%;" />
 </div>
 
 <div align="center">
+  <h3>Languages</h3>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=md,py,cpp,cs,dotnet,latex,anaconda,js,java" alt="Languages"/>
+  </a>
+</div>
+
+<div align="center">
+    <h3>Tools and Softwares</h3>
     <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=git,eclipse,regex,vscode,ai,linux,visualstudio,raspberrypi,ubuntu" alt="Tools" style="max-width: 98%; height: 50px;" />
+      <img src="https://skillicons.dev/icons?i=git,eclipse,vscode,visualstudio,ai,raspberrypi,linux,ubuntu,arch" alt="Tools"/>
     </a>
 </div>
 
-## My GitHub Stats
-
-<div style="text-align: center;">
-    <div style="display: inline-block; vertical-align: center;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+    <div>
         <img src="https://github-readme-stats-hvpm.vercel.app/api?username=breezy-codes&count_private=true&show_icons=true&theme=material-palenight&rank_icon=github&border_radius=10" alt="readme stats" width="450" />
     </div>
-    <div style="display: inline-block; vertical-align: center;">
+    <div>
         <img src="https://github-readme-stats-hvpm.vercel.app/api/top-langs/?username=breezy-codes&langs_count=12&layout=compact&theme=material-palenight&border_radius=10&size_weight=0.5&count_weight=0.5" alt="top langs" width="300" />
     </div>
 </div>
@@ -108,7 +97,7 @@ I recently submitted my first paper on Optical X-haul for Beyond 5G to a confere
 
 - **Future Plans:** Preparing to begin my Honours thesis on O-RAN and 6G networks this year, with a vision to extend this research into a PhD starting in 2026.
 
---- 
+---
 
 ### Completed Subjects
 
@@ -119,29 +108,30 @@ I recently submitted my first paper on Optical X-haul for Beyond 5G to a confere
 :::{grid-item}
 :columns: 12 6
 
-- Introduction to Programming (C++)
-- Object Oriented Programming (C#)
-- Secure Coding (Java, MySql)
-- Computer Systems
-- Introduction to Cybersecurity
-- Discrete Mathematics
-- Cryptography
-- Computer Networks
-- Professional Practices
-- Data Structures and Algorithms  
+- Introduction to Programming (C++) - D/70
+- Object Oriented Programming (C#) - HD/96
+- Secure Coding (Java, MySql) - HD/95
+- Computer Systems - HD/85
+- Introduction to Cybersecurity - HD/85
+- Discrete Mathematics - HD/95
+- Cryptography - HD/90
+- Computer Networks - HD/100
+- Professional Practices - HD/83
+- Data Structures and Algorithms - HD/95  
 :::
 
 :::{grid-item}
 :columns: 12 6
 :child-align: justify
 
-- Network Forensics
-- Computer Forensics
-- Cybersecurity Analytics
-- **Completing in T2:** Applied Frontiers of Cryptography at RMIT
-- **Completing in T2:** Optimisation and Constraint Programming
-- **Completing in T2:** Advanced Network Security
-- **Completing in T2:** Ethical Hacking
+- Network Forensics - HD/97
+- Computer Forensics - HD/97
+- Cybersecurity Analytics - HD/95
+- Applied Frontiers of Cryptography at RMIT
+- Optimisation and Constraint Programming - HD/100
+- Advanced Network Security - HD/90
+- Ethical Hacking - HD/95
+- Capstone A - HD/100
 :::
 ::::
 

@@ -4,7 +4,17 @@
 format: jb-book
 root: index
 parts:
-  #- caption: 
+  - caption:
+    numbered: false
+    chapters:
+      - file: content/about-me/accomplishments.md
+        title: Accomplishments
+      - file: content/about-me/work-experience.md
+        title: Work Experience
+      - file: content/about-me/capstone.md
+        title: Capstone Experience
+      - file: content/about-me/research.md
+        title: Research Work
   - caption: My Guide Websites and Projects
     numbered: false
     chapters:
