@@ -8,7 +8,7 @@ Growing up in rural Australia, I have experienced firsthand the challenges of li
 
 ## Honours Research
 
-Currently, I am pursuing an Honours Bachelor’s degree at Deakin University with my honours in telecommunications and computational mathematics. My Honours research focuses on building a mathematical framework for **optical xhaul network design** to support cost-effective, scalable deployment strategies for **reconfigurable Radio Access Networks (RAN)** and O-RAN in B5G networks.
+Currently, I am pursuing an Honours Bachelor's degree at Deakin University with my honours in telecommunications and computational mathematics. My Honours research focuses on building a mathematical framework for **optical xhaul network design** to support cost-effective, scalable deployment strategies for **reconfigurable Radio Access Networks (RAN)** and O-RAN in B5G networks.
 
 This project aims to balance performance, scalability, and affordability by leveraging mathematical and computational models. The core components of my research include:
 
