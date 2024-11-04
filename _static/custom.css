@@ -74,10 +74,6 @@ div.math {
   border: none;
 }
 
-.wh-wrapper {
-  /*width: 500px;*/
-}
-
 .wh-progress-bar {
   width: 100%;
   background-color: #e0e0e0;
@@ -155,3 +151,14 @@ div.output .text_html {
   overflow-x: auto;
 }
 
+/* Remove white borders around images and embedded content */
+img, .markdown-image, .markdown-figure {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Align content to center and adjust for dark themes */
+div.align-center img {
+  filter: brightness(0.8) contrast(1.2);
+}
