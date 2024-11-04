@@ -8,6 +8,11 @@ I'm currently pursuing an Honours Bachelor's degree in Cyber Security at Deakin 
 
 Throughout my studies, I've achieved several academic highlights, including features in the Deakin Maths Yearbook for my HD reports on Cryptography (SIT192) and Quantum Cryptography (SIT281). My current research focuses on telecommunication networks, particularly the planning and optimisation of optical xhaul networks, support reconfigurable O-RAN in 6G networks. I recently submitted my first paper on this topic to a conference and am actively working on several more. Additionally, I'm preparing a survey paper for IEEE on reconfigurable RAN for beyond 5G, discussing networking planning, resource allocation and the challenges of beyond 5G networks.
 
+<!--START_SECTION:SHOW_DAYS_OF_WEEK-->
+<!--END_SECTION:SHOW_DAYS_OF_WEEK-->
+<!--START_SECTION:SHOW_LANGUAGE-->
+<!--END_SECTION:SHOW_LANGUAGE-->
+
 ## Projects
 
 During my time at university, I've developed a passion for teaching and sharing knowledge. I’ve created guides on topics such as computer networks, cryptography, and quantum cryptography, designed to help students understand complex concepts through tutorials, examples, and Python implementations.
