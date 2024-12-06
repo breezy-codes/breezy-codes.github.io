@@ -33,7 +33,7 @@ jobs:
 
     # Ensure the CNAME file is in the built HTML directory
     - name: Add CNAME file
-      run: echo "briannalaird.com > _build/html/CNAME
+      run: echo "briannalaird.com" > _build/html/CNAME
 
     # Upload the book's HTML as an artifact
     - name: Upload artifact
