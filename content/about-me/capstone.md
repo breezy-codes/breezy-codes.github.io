@@ -15,7 +15,7 @@ My primary contributions in Capstone A included:
 
 ## Capstone B
 
-In **Capstone B**, I am focusing on more technical contributions, delving deeper into the SplashKit core. I am also continuing to oversee work on tutorials and the expansion of usage examples. In addition, I am working on developing maths tutorials for [The Programmer's Field Guide](https://github.com/splashkit/the-programmers-field-guide), aimed at providing essential mathematical concepts for programmers.
+In **Capstone B**, I am focusing on more technical contributions, delving deeper into the SplashKit core. I am also continuing to oversee work on tutorials and the expansion of usage examples. In addition, I am working on the creation of the Beyond Splashkit project, where we take programming outside of the concepts in Splashkit and into the real world.
 
 For more information, visit:
 
