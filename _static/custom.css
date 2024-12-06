@@ -1,164 +1,325 @@
-/* Import the Raleway font */
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-/* Update font variable */
 :root {
-  --font-family-sans-serif: 'Raleway', -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-  --pst-font-family-base: var(--font-family-sans-serif);
-  --pst-background-color: #f5f4e9;
+  --lighter-purple: #D8CFFD;
+  --light-purple: #AB94F4;
+  --medium-purple: #644B9F;
+  --dark-purple: #361F77;
 }
 
-p {
-  text-align: left;
+/* Link styling: neon green accents */
+a {
+  color: var(--medium-purple);
+  opacity: 1;
 }
 
-div.math {
-  overflow-x: hidden !important;
+/* Center align all images */
+img {
+  display: block; /* Makes the image behave like a block element */
+  margin-left: auto; /* Automatically adjusts left margin */
+  margin-right: auto; /* Automatically adjusts right margin */
 }
 
-/* The Modal (background) */
-#wh-modal {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 9999;
-  /* Sit on top */
-  padding-top: 100px;
-  /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0);
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.9);
-  /* Black w/ opacity */
+/* Headings: Use bronze color for better visibility */
+h1, h2, h3, h4, h5, h6, .headerlink {
+  color: var(--medium-purple) !important;
+  text-align: center;
 }
 
-/* Modal Content (Image) */
-#wh-modal-img {
-  margin: auto;
-  display: block;
-  max-width: min(1200px, 100%);
+/* Set the topic title to bronze, even inside nav.contents */
+nav.contents p.topic-title {
+  color: var(--medium-purple) !important;
+  text-decoration: none !important;
+  text-align: center;
 }
 
-/* The Close Button */
-#wh-modal-close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
+a:hover {
+  color: var(--dark-purple);
+}
+
+/* Sidebar links styling - change to bronze */
+.bd-sidebar-primary a {
+  color: var(--medium-purple) !important; /* Bronze color for sidebar links */
   font-weight: bold;
 }
 
-#wh-modal-close:hover,
-#wh-modal-close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
+.bd-sidebar-primary a:hover {
+  color: var(--light-purple) !important; /* Neon green on hover */
 }
 
-.wh-fig-a:hover {
-  cursor: pointer;
+/* Sidebar headers and dividers: Bronze for accent */
+.sidebar-primary-item h2 {
+  color: var(--medium-purple); /* Bronze headers for sidebar */
 }
 
-.wh-venti-button {
-  background-color: transparent;
-  max-width: min(1200px, 100%);
+.sidebar-primary-item hr {
+  border-color: var(--medium-purple); /* Bronze dividers */
+}
+
+code {
+  color: var(--medium-purple); /* Muted orange */
+}
+
+/* Blockquotes: Orange background, white border-left, and teal text inside */
+blockquote {
+  background-color: var(--medium-purple); /* Bright orange background */
+  border-left: 4px solid #f0ece2; /* Off-white border on the left */
+  padding: 1rem; /* Padding for readability */
+  color: #f0ece2; /* Off-white text */
+}
+
+blockquote p {
+  color: #282A36 !important; /* Teal text for paragraphs inside blockquote */
+}
+
+/* Button styling: Bronze background with hover effect */
+button {
+  background-color: var(--medium-purple); /* Bronze background */
+  color: #f0ece2; /* Off-white text */
   border: none;
 }
 
-.wh-progress-bar {
-  width: 100%;
-  background-color: #e0e0e0;
-  padding: 3px;
-  border-radius: 3px;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+button:hover {
+  background-color: #1b1b1b; /* Dark hover effect */
+  color: var(--light-purple); /* Neon green hover */
 }
 
-.wh-progress-bar-fill {
-  display: block;
-  height: 22px;
-  background-color: #1BBC9B;
-  border-radius: 3px;
+/* Highlight row-odd on hover */
+tbody tr.row-odd:hover {
+  background-color: var(--lighter-purple); /* Light purple color */
+}
+
+/* Highlight row-even on hover */
+tbody tr.row-even:hover {
+  background-color: var(--lighter-purple); /* Light purple color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--medium-purple);
+  border-radius: 6px;
+}
+
+/* Apply a border color to the table */
+table {
+  border: 1px solid var(--light-purple); /* Border for the entire table */
+  border-collapse: collapse; /* Ensures borders don't double up */
+}
+
+/* Set the border color for table cells (td and th) */
+table th, table td {
+  border: 1px solid var(--light-purple); /* Border for each cell */
+}
+
+table th {
+  background-color: white; /* Bronze header background */
+}
+
+/* Secondary sidebar links */
+.bd-sidebar-secondary a {
+  color: var(--medium-purple); /* Bronze color for links */
+}
+
+.bd-sidebar-secondary a:hover {
+  color: var(--light-purple); /* Neon green on hover */
+}
+
+/* Secondary sidebar headings */
+.bd-sidebar-secondary h2 {
+  color: var(--medium-purple); /* Bronze headings */
+}
+
+.bd-toc a {
+  color: var(--medium-purple); /* Bronze color for TOC links */
+}
+
+.bd-toc a:hover {
+  color: var(--light-purple); /* Teal-green hover */
+}
+
+/* Active TOC link styling */
+.toc-h2 a.nav-link.active {
+  color: var(--light-purple) !important; /* Bronze for active TOC links */
+  font-weight: bold;
+}
+.toc-h2 a.nav-link {
+  color: var(--medium-purple) !important; /* Teal color when inactive */
+  font-weight: bold;
+}
+
+.toc-h2 a.nav-link.active:hover {
+  color: var(--dark-purple) !important; /* Teal-green on hover */
+  font-weight: bold;
+}
+
+/* On-this-page section styling in sidebar */
+.bd-sidebar-secondary .onthispage {
+  color: var(--medium-purple) !important;
+  font-weight: bold;
+}
+
+.bd-sidebar-secondary .onthispage * {
+  color: var(--medium-purple) !important; /* Bronze for all nested elements */
+  font-weight: bold;
+}
+
+/* Button in header article */
+.bd-header-article .btn {
+  color: var(--medium-purple) !important; /* Bronze text */
+  background-color: transparent;
+}
+
+.bd-header-article .btn:hover {
+  background-color: var(--light-purple) !important; /* Teal hover background */
+  color: #1f1d1b !important; /* Dark hover text */
+}
+
+/* Change text color inside span.std-doc to teal */
+span.std-doc {
+  color: var(--medium-purple) !important; /* Teal-green color */
+}
+
+/* Captions: Bronze text */
+span.caption-text {
+  color: var(--medium-purple) !important;
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+header.bd-header.navbar a:hover {
+  color: var(--light-purple) !important; /* Teal-green hover */
+}
+
+a.reference.internal {
+  color: var(--medium-purple) !important;
+}
+
+a.reference.external {
+  color: var(--medium-purple) !important;
+}
+
+a.reference.internal:hover {
+  color: var(--light-purple) !important;
+}
+
+a.reference.external:hover {
+  color: var(--light-purple) !important;
+}
+
+
+html[data-theme="light"] {
+  --pst-color-background: #fdfdff;
+}
+
+
+html[data-theme="dark"] {
+  /* Primary color: Keep this as it is unless you want to change it */
+  --pst-color-primary: #528fe4;
+
+  /* Announcement color: Keep or adjust based on preference */
+  --sbt-color-announcement: rgb(97, 97, 97);
+
+  /* Background color: Updated to #282A36 */
+  --pst-color-background: #282A36;
+}
+
+/* Dark Theme */
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6 {
+  color: var(--light-purple) !important;
   text-align: center;
-  color: #ffffff;
-  transition: width 500ms ease-in-out;
+  padding: 0; /* Ensure padding is reset */
+  margin: 0.5em 0; /* Add consistent margins */
 }
 
-td>p {
-  margin-bottom: 0;
-  margin-top: 0;
+html[data-theme="dark"] img:not(.only-dark, .dark-light) {
+  filter: brightness(.9) contrast(1.2);
 }
 
-.table td,
-.table th {
-  padding: 0.2rem 0.75rem 0.2rem 0.75rem;
+/* Sidebar links styling - dark theme */
+html[data-theme="dark"] .bd-sidebar-primary a {
+  color: var(--light-purple) !important; /* Light purple for sidebar links */
+  font-weight: bold;
 }
 
-.wh-container {
-  position: relative;
-  text-align: center;
-  color: white;
+html[data-theme="dark"] .bd-sidebar-primary a:hover {
+  color: var(--medium-purple) !important; /* Medium purple on hover */
 }
 
-.wh-div-centered {
-  position: absolute;
-  top: 50%;
-  left: 25%;
-  transform: translate(-17%, -50%);
-  background: rgba(0, 0, 0, .75);
+/* Code block styling: dark background with orange highlights */
+html[data-theme="dark"] code {
+  background-color: #333333; /* Dark gray */
+  color: #ff79c6; /* Muted orange */
 }
 
-.wh-hero {
-  color: #FFFFFF !important;
-  padding: 1em;
-  margin: 0;
-  height: 100%;
+html[data-theme="dark"] code.literal {
+  background-color: var(--pst-color-surface);
+  border: 0.7px solid var(--lighter-purple);
+  border-radius: .25rem;
+  padding: .1rem .25rem;
 }
 
-/* Not sure why, but pasted images are going display:blocks(??)*/
-.pasted-inline>img {
-  display: inline !important;
+/* Sidebar headers and dividers: Bronze for accent */
+html[data-theme="dark"] a.current.reference.internal {
+  color: var(--lighter-purple) !important; /* Use the light purple variable */
+  font-weight: bold; /* Optional: make it bold for emphasis */
 }
 
-/* Adjust main content width */
-.main-content {
-  max-width: 100%;
-  margin: 0 auto;
+/* Active TOC link styling - dark theme */
+html[data-theme="dark"] .toc-h2 a.nav-link.active {
+  color: var(--lighter-purple) !important; /* Medium purple for active TOC links */
+  font-weight: bold;
 }
 
-/* Specific elements inside the sidebar */
-.bd-sidebar-primary p.caption,
-.bd-sidebar-primary a.reference.external,
-.bd-sidebar-primary a.reference.internal {
-  font-size: 0.9em; /* Adjust this value as needed */
+html[data-theme="dark"] .toc-h2 a.nav-link {
+  color: var(--light-purple) !important; /* Light purple when inactive */
+  font-weight: bold;
 }
 
-/* Center flex container */
-.wh-flex-center {
-  display: flex;
-  justify-content: center;
+html[data-theme="dark"] .toc-h2 a.nav-link.active:hover {
+  color: var(--lighter-purple) !important; /* Medium purple on hover for active links */
+  font-weight: bold;
 }
 
-div.output .text_html {
-  overflow-x: auto;
+html[data-theme="dark"] span.std-doc {
+  color: var(--light-purple) !important; /* Teal-green color */
 }
 
-/* Remove white borders around images and embedded content */
-img, .markdown-image, .markdown-figure {
-  background-color: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
+html[data-theme="dark"] a:hover {
+  color: var(--lighter-purple);
 }
 
-/* Align content to center and adjust for dark themes */
-div.align-center img {
-  filter: brightness(0.8) contrast(1.2);
+html[data-theme="dark"] span.caption-text {
+  color: var(--lighter-purple) !important;
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+html[data-theme="dark"] summary span {
+  color: black !important;
+}
+
+html[data-theme="dark"] a.reference.internal {
+  color: var(--light-purple) !important;
+}
+
+html[data-theme="dark"] a.reference.external {
+  color: var(--light-purple) !important;
+}
+
+html[data-theme="dark"] a.reference.internal:hover {
+  color: var(--lighter-purple) !important;
+}
+
+html[data-theme="dark"] a.reference.external:hover {
+  color: var(--lighter-purple) !important;
+}
+
+html[data-theme="dark"] tbody tr.row-odd:hover {
+  background-color: var(--dark-purple); /* Light purple color */
+}
+
+html[data-theme="dark"] tbody tr.row-even:hover {
+  background-color: var(--dark-purple); /* Light purple color */
 }
