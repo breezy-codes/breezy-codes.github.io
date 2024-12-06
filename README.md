@@ -65,13 +65,8 @@ I’m currently:
 
 ---
 
-<div align="center">
-    <h3>Languages and Tools</h3>
-    <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=md,py,cpp,cs,java,latex,git,vscode,linux" alt="Languages and Tools" />
-    </a>
-</div>
+### 🏆 GitHub Profile Trophies
 
 <div align="center">
-    <img src="https://github-readme-stats-hvpm.vercel.app/api?username=breezy-codes&count_private=true&show_icons=true&theme=material-palenight&rank_icon=github&border_radius=10" alt="GitHub Stats" width="450" />
+    <img src="https://github-profile-trophy.vercel.app/?username=breezy-codes&theme=onedark&row=1" alt="GitHub Profile Trophies" style="max-width: 100%;" />
 </div>
