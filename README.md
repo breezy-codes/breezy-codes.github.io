@@ -23,7 +23,11 @@
   </a>
 </div>
 
-![Deployment Status](https://github.com/breezy-codes/breezy-codes.github.io/actions/workflows/deploy.yml/badge.svg)
+<div align="center">
+  <br>
+  <img src="https://github.com/breezy-codes/breezy-codes.github.io/actions/workflows/deploy.yml/badge.svg" alt="Deployment Status">
+  <br><br>
+</div>
 
 I’m an **Honours Cybersecurity student** at Deakin University with a **WAM of 93** and a **2024 grade average of 96.25**. My research focuses on developing a mathematical framework for **optical x-haul networks** to support **reconfigurable 6G networks** using **O-RAN technology**.  
 
