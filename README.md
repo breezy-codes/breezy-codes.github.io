@@ -1,5 +1,35 @@
 # Hi, I’m Brianna (Breezy) 👋  
 
+<div align="center">
+  <a href="https://www.linkedin.com/in/brianna-laird/" target="_blank">
+    <span style="margin: 0 15px;">
+      <img src="https://github.com/breezy-codes/breezy-codes/blob/main/Figures/linkedin.png" style="height: 35px;" alt="linkedin logo" />
+    </span>
+  </a>
+  <a href="https://www.youtube.com/@Breezy-Codes/" target="_blank">
+    <span style="margin: 0 15px;">
+      <img src="https://github.com/breezy-codes/breezy-codes/blob/main/Figures/youtube.png" style="height: 35px;" alt="youtube logo" />
+    </span>
+  </a>
+  <a href="https://briannalaird.com/" target="_blank">
+    <span style="margin: 0 15px;">
+      <img src="https://github.com/breezy-codes/breezy-codes/blob/main/Figures/portfolio.png" style="height: 35px;" alt="portfolio logo" />
+    </span>
+  </a>
+  <a href="https://orcid.org/0009-0005-9841-3691" target="_blank">
+    <span style="margin: 0 15px;">
+      <img src="https://github.com/breezy-codes/breezy-codes/blob/main/Figures/orc-id.png" style="height: 35px;" alt="ORC-ID" />
+    </span>
+  </a>
+  <!--
+  <a href="https://example.com/" target="_blank">
+    <span style="margin: 0 15px;">
+      <img src="Figures/scholar.png" style="height: 35px;" alt="other logo" />
+    </span>
+  </a>
+  -->
+</div>
+
 ![Deployment Status](https://github.com/breezy-codes/breezy-codes.github.io/actions/workflows/deploy.yml/badge.svg)
 
 I’m an **Honours Cybersecurity student** at Deakin University with a **WAM of 93** and a **2024 grade average of 96.25**. My research focuses on developing a mathematical framework for **optical x-haul networks** to support **reconfigurable 6G networks** using **O-RAN technology**.  
