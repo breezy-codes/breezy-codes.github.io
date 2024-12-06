@@ -21,13 +21,6 @@
       <img src="https://github.com/breezy-codes/breezy-codes/blob/main/Figures/orc-id.png" style="height: 35px;" alt="ORC-ID" />
     </span>
   </a>
-  <!--
-  <a href="https://example.com/" target="_blank">
-    <span style="margin: 0 15px;">
-      <img src="Figures/scholar.png" style="height: 35px;" alt="other logo" />
-    </span>
-  </a>
-  -->
 </div>
 
 ![Deployment Status](https://github.com/breezy-codes/breezy-codes.github.io/actions/workflows/deploy.yml/badge.svg)
