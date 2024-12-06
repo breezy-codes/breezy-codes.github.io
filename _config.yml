@@ -36,3 +36,8 @@ html:
 sphinx:
   extra_extensions:
     - sphinx_proof
+
+
+html:
+  extra_css:
+    - _static/custom.css
