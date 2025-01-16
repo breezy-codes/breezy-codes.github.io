@@ -34,6 +34,8 @@ parts:
     chapters:
       - file: content/blog-posts/2023-11-04-creating-form-spam.md
         title: Creating Form Spam
+      - file: content/blog-posts/2025-01-17-using-figlet-and-lolcat.md
+        title: Terminal Customisation with Figlet and Lolcat
 #     - file: content/blog-posts/2024-04-03-picking-cybersecurity.md
       - file: content/blog-posts/2024-04-08-sucked-at-maths-in-school.md
         title: I sucked at maths in school
