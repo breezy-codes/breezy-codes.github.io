@@ -1,6 +1,6 @@
 # Using Figlet and Lolcat for Eye-Catching Terminal Messages
 
-This guide will help you set up Figlet and Lolcat on Linux to create colourful, ASCII-styled terminal messages. We'll provide detailed instructions for both Ubuntu and Arch-based systems, along with tips to enhance your setup.
+This guide will help you set up Figlet and Lolcat on Linux to create colourful, ASCII-styled terminal messages. I've provide detailed instructions for both Ubuntu and Arch-based systems.
 
 ---
 
