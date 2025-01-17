@@ -14,6 +14,12 @@ Figlet is a tool for generating ASCII art from text. Use the appropriate command
 sudo pacman -S figlet
 ```
 
+Then do - 
+
+```bash
+yay -S figlet-fonts
+```
+
 ### **For Ubuntu-based Systems (e.g., Ubuntu, Debian):**
 
 ```bash
@@ -36,22 +42,6 @@ sudo pacman -S lolcat
 ```bash
 sudo apt install lolcat
 ```
-
----
-
-## **Step 3: Install Additional Figlet Fonts**
-
-Expand your Figlet experience by adding more fonts to your system. Here’s how:
-
-### **Download and Install Fonts**
-1. Clone the community fonts repository:
-   ```bash
-   git clone https://github.com/xero/figlet-fonts.git ~/figlet-fonts
-   ```
-2. Move the fonts to the correct directory:
-   ```bash
-   sudo cp ~/figlet-fonts/* /usr/share/figlet/fonts
-   ```
 
 ---
 
