@@ -2,12 +2,12 @@
 
 ## My Work Experience at Deakin University
 
-### Sessional Academic
+### Associate Teaching Fellow
 
-**March 2024 to October 2024**
+**March 2025 to Present**
 
-- Developing quizzes in NUMBAS and creating graph theory extensions using JME programming for SIT192.
-- Developed my own extension for creating NUMBAS questions on the Welsh Powell algorithm.
+- Marking 50 students in SIT102 and 50 students in SIT192, providing feedback to support their learning.
+- Conducting 2 help hub sessions per week in SIT202.
 
 ### Maths Mentor
 
@@ -16,17 +16,17 @@
 - Assisting students with maths problems through weekly online sessions.
 - Sessions are run through Zoom and are open to all students.
 
-### Tutor for SIT102
+### Sessional Academic
+
+**March 2024 to October 2024**
+
+- Developing quizzes in NUMBAS and creating graph theory extensions using JME programming for SIT192.
+- Developed my own extension for creating NUMBAS questions on the Welsh Powell algorithm.
 
 **Trimester 2 2024**
 
-- Marking students’ OnTrack work and providing feedback to support their learning.
-
-### Help Hub Sessions for SIT202
-
-**Trimester 2 2024**
-
-- Conducted drop-in sessions where students could receive assistance with course material and assignments.
+- Marking 30 students in SIT102 and providing feedback to support their learning.
+- Conducted 2 help hub sessions per week in SIT202.
 
 ### SAP Learning Resource Developer
 

@@ -16,19 +16,19 @@ This project aims to balance performance, scalability, and affordability by leve
 - **Resource Allocation**: Creating strategies to dynamically allocate resources within RAN to ensure optimal network performance under various conditions.
 - **Mathematical Modelling and Simulation**: Employing computational mathematics to simulate network scenarios, enabling the evaluation of scalability and flexibility in different xhaul configurations.
 
-I recently submitted my first paper on this topic to a conference and am actively working on additional papers, each contributing to the growing body of knowledge in network planning and optimisation for next-generation telecommunications.
+I recently had a paper accepted to the Optical Fiber Communication Conference and Exhibition (OFC) 2025, where I presented a mathematical model for optical xhaul network design. This model was developed prior to my Honours research and has since been expanded and refined to support my current work. I'm also working on a paper currently for the Journal of Optical Communications and Networking (JOCN) on the extension of the model from OFC. As well as a paper targeted to the field of operations research on the problem.
 
 ## Future PhD Plans
 
-After completing my Honours research, I plan to pursue a PhD starting in 2026, with a continued emphasis on **reconfigurable RAN** and **beyond 5G networks**. My PhD research will expand on my Honours work, with more of a focus on dynamic reconfiguration and adaptive network design to meet the evolving demands of future wireless communication technologies. Exploring the use of different functional splits and designs to achieve optimal network performance and scalability will be a key aspect of my PhD research.
+After completing my Honours research, I plan to pursue a PhD starting in late 2025, with a continued emphasis on **reconfigurable RAN** and **beyond 5G networks**. My PhD research will expand on my Honours work, with more of a focus on dynamic reconfiguration and adaptive network design to meet the evolving demands of future wireless communication technologies. Exploring the use of different functional splits and designs to achieve optimal network performance and scalability will be a key aspect of my PhD research.
 
 ## Ongoing Research and Contributions
 
 My interest in research extends beyond my formal studies, encompassing several research-related activities:
 
-- **Associate Deakin Research Summer Scholarship**: During the 2023/2024 summer, I was awarded this scholarship, where I initially focused on **computer networks**. I soon shifted my research towards **Radio Access Networks (RAN)**, developing a strong interest in **O-RAN** and **6G resource allocation**. This experience provided a solid foundation in network planning and optimisation, which continues to guide my Honours and PhD research.
+- **Associate Deakin Research Summer Scholarship**: During the 2023/2024 summer, I was awarded this scholarship, where I initially focused on **computer networks**. I soon shifted my research towards **Radio Access Networks (RAN)**, developing a strong interest in **O-RAN** and **6G resource allocation**. This experience provided a solid foundation in network planning and optimisation, which continues to guide my Honours and PhD research. I was also awarded this scholarship again for the 2024/2025 summer, where I continued my research into RAN and xhaul networks.
 
-- **Academic Publications**: In addition to my recent conference submission, I am preparing a survey paper for **IEEE** on **reconfigurable RAN for beyond 5G**, examining network planning, resource allocation, and the unique challenges of developing next-generation networks. As well as an extended version of my conference paper where I'm working on extending my model to include more realistic scenarios and constraints.
+- **Academic Publications**: In addition to my recent conference acceptance at OFC 2025, I am finalising a survey paper for **IEEE** on **reconfigurable RAN for beyond 5G**, examining network planning, resource allocation, and the unique challenges of developing next-generation networks. As well as an extended version of my conference paper where I'm working on extending my model to include more realistic scenarios and constraints.
 
 For more information on my academic journey and accomplishments, please visit:
 
