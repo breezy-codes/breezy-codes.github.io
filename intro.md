@@ -1,12 +1,14 @@
 # I'm Brianna but you can call me Breezy
 
-I'm currently pursuing an Honours Bachelor's degree in Cybersecurity at Deakin University, with a WAM of 93 and a grade average of 96.25 for 2024. My commitment to academic excellence has earned me awards such as the Deakin Scholarship for Excellence and the Associate Dean Summer Research Scholarship. My Honours research focuses on developing a mathematical framework for optical xhaul network design to support reconfigurable 6G networks using O-RAN technology.
+I'm currently pursuing an Honours Bachelor's degree in Cybersecurity at Deakin University, with a WAM of 93 and a grade average of 96.8 for 2024. My commitment to academic excellence has earned me awards such as the Deakin Scholarship for Excellence and the Associate Dean Summer Research Scholarship. My Honours research focuses on developing a mathematical framework for optical xhaul network design to support reconfigurable 6G networks using O-RAN technology.
 
 ---
 
 ## My Academic Journey
 
-Throughout my studies, I've achieved several academic highlights, including features in the *Deakin Maths Yearbook* for my HD reports on Cryptography (SIT192) Quantum Cryptography (SIT281) and Optimisation and Constraint Programming (SIT316). My current research focuses on telecommunication networks, particularly the planning and optimisation of optical xhaul networks to support reconfigurable O-RAN in 6G networks. This work builds on my previous research during the Associate Deakin Research Summer Scholarship, where I initially explored computer networks and developed a strong interest in Radio Access Networks (RAN). I am now actively working on several papers, including one that has been accepted to the Optical Fiber Communications Conference (OFC). I've finalised a survey paper on reconfigurable RAN for IEEE, which discusses network planning, resource allocation, and the challenges of implementing beyond 5G networks. In progress I'm also working on an extension of the work done in OFC as well as one focused on the operations research side of the problem.
+Throughout my studies, I've achieved several academic highlights, including features in the *Deakin Maths Yearbook* for my HD reports on Cryptography (SIT192) Quantum Cryptography (SIT281) and Optimisation and Constraint Programming (SIT316). My current research focuses on telecommunication networks, particularly the planning and optimisation of optical xhaul networks to support reconfigurable O-RAN in 6G networks. This work builds on my previous research during the Associate Deakin Research Summer Scholarship, where I initially explored computer networks and developed a strong interest in Radio Access Networks (RAN).
+
+I am now actively working on several papers, including one that has been accepted to the **Optical Fiber Communications Conference (OFC)**. I've finalised a survey paper on reconfigurable RAN for IEEE, which discusses network planning, resource allocation, and the challenges of implementing beyond 5G networks. In progress I'm also working on an extension of the work done in OFC as well as one focused on the operations research side of the problem.
 
 For a detailed overview of my accomplishments, visit [Academic and Research Accomplishments](content/accomplishments.md) and see [Research](content/research.md) to learn more about my research projects.
 
@@ -96,7 +98,7 @@ Now, as an Honours student in telecommunications and computational mathematics, 
 
 ## Work Experience
 
-I have held multiple roles at Deakin University, ranging from academic support to curriculum development. These positions have honed my skills in both technical development and student support.
+I have held multiple roles at Deakin University, ranging from academic support to curriculum development and now working within teaching as an Associate Teaching Fellow. My responsibilities include marking, conducting help hub sessions, and developing learning materials for computer networks and SAP. I have also contributed to the SMS Evaluation Team, facilitating evaluations and improvements for the student mentoring program.
 
 For a complete summary of my work experience, visit [Work Experience](content/work-experience.md).
 
@@ -104,7 +106,7 @@ For a complete summary of my work experience, visit [Work Experience](content/wo
 
 ## Capstone Subjects
 
-My Capstone projects have provided valuable opportunities to develop both technical and leadership skills. In Capstone A, I led the SplashKit tutorials team for [Thoth Tech](https://github.com/thoth-tech), and my efforts were rewarded with a perfect grade of 100. Capstone B focuses on technical contributions to SplashKit core and the Splashkit website with usage examples and a beyond Splashkit project.
+My Capstone projects have provided valuable opportunities to develop both technical and leadership skills. In Capstone A, I led the SplashKit tutorials team for [Thoth Tech](https://github.com/thoth-tech), and my efforts were rewarded with a perfect grade of 100. Capstone B focused on technical contributions to SplashKit core and the Splashkit website with usage examples and a beyond Splashkit project which also received a perfect grade of 100.
 
 To learn more about my Capstone contributions, please visit [Capstone Projects](content/capstone.md).
 
