@@ -29,13 +29,15 @@
   <br><br>
 </div>
 
-I’m an **Honours Cybersecurity student** at Deakin University with a **WAM of 93** and a **2024 grade average of 96.25**. My research focuses on developing a mathematical framework for **optical x-haul networks** to support **reconfigurable 6G networks** using **O-RAN technology**.  
+I’m an **Honours Cybersecurity student** at Deakin University with a **WAM of 93** and a **2024 grade average of 96.8**. My research focuses on developing a mathematical framework for **optical x-haul networks** to support **reconfigurable 6G networks** using **O-RAN technology**.  
 
 🎓 **Awards and Achievements**  
 
-- **Deakin Scholarship for Excellence**  
-- **Associate Dean Summer Research Scholarship (2023/2024)**  
-- First dual-feature in the *Deakin Maths Yearbook* for Cryptography and Quantum Computing reports.  
+- **Deakin Scholarship for Excellence for both my Bachelors and my Honours**  
+- **Associate Dean Summer Research Scholarship (2023/2024 and in 2024/2025)**  
+- First dual-feature in the *Deakin Maths Yearbook* for Cryptography and Quantum Computing reports. First to feature 2 years in a row with my third report on optical xhaul networks.
+- Perfect grades in **Capstone A and B** for leadership in SplashKit tutorials.
+- Accepted paper at **OFC 2025** on optical xhaul network design.
 
 💻 **Key Projects**  
 
