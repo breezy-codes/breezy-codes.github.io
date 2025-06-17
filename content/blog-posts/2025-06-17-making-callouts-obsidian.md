@@ -42,7 +42,7 @@ To use this in your note, write:
 
 This is how it looks in Obsidian:
 
-![alt text](../../img/blogs/obidian_callouts/fig1.png)
+![alt text](../../img/blogs/obsidian-callouts/fig1.png)
 
 And voilà, Obsidian will render it with your defined styles.
 
@@ -77,7 +77,7 @@ Use it in your note like this:
 
 This will render as:
 
-![alt text](../../img/blogs/obidian_callouts/fig2.png)
+![alt text](../../img/blogs/obsidian-callouts/fig2.png)
 
 Most of the ones I've made have been for equations, theorems, figures or other mathematical content, but you can create any type of callout you need. I even made some "warning" ones:
 
@@ -108,9 +108,82 @@ Use them like this:
 
 This will render as:
 
-![alt text](../../img/blogs/obidian_callouts/fig3.png)
+![alt text](../../img/blogs/obsidian-callouts/fig3.png)
 
 ---
+
+## Foldable Callouts
+
+You can make callouts foldable by adding `+` or `-` after the label:
+
+* `+` → Open by default, but collapsible
+* `-` → Closed by default
+
+```markdown
+> [!figure]+
+> This is a **figure** callout. Great for highlighting diagrams or illustrations.
+
+> [!figure]-
+> This one starts **closed** by default.
+```
+
+This works on both built-in and custom callouts.
+
+![alt text](../../img/blogs/obsidian-callouts/fig4.png)
+
+---
+
+## Creating a Colour Overlay on a Dark Base
+
+If you're using a dark theme and want each callout to sit on a consistent dark base while still showing its colour clearly, you can use an **overlay effect** like this (add it into the same CSS file):
+
+```css
+/* Base background for all callouts */
+.callout {
+    background-color: #282A37 !important; /* Base background */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Overlay using callout color with opacity */
+.callout::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgb(var(--callout-color), 0.3); /* Top color overlay */
+    pointer-events: none;
+    z-index: 0;
+    border-radius: var(--radius-s);
+}
+
+/* Ensure content stays above the overlay */
+.callout > * {
+    position: relative;
+    z-index: 1;
+}
+```
+
+This ensures each callout has a consistent dark base, while the `--callout-color` overlays with controlled transparency. Here the base background colour is the default colour of my Obsidian theme, but you can change it to whatever suits your theme.
+
+This is especially helpful when **nesting** callouts (see below), as it prevents the background of one from bleeding into another.
+
+---
+
+## Nesting Callouts
+
+Yes, you **can nest callouts**, and they’ll render beautifully, especially if you use the background layering technique above.
+
+```markdown
+> [!question] Can callouts be nested?
+> > [!todo] Yes, they can.
+> > > [!example] You can even use multiple layers of nesting.
+```
+
+This will render as:
+
+![Nested callouts in Obsidian](../../img/blogs/obsidian-callouts/fig5.png)
+
+Each level keeps its own style, icon, and background overlay, making complex structures more readable.
 
 ## Useful Links
 
@@ -119,9 +192,9 @@ This will render as:
 
 ---
 
-## 🧪 Final Tips
+## Final Tips
 
 * You can define as many custom callouts as you like, one for each purpose.
-* Keep your styles readable by using soft background `rgba` values.
+* Keep your styles readable by using soft background `rgba` values or stick to the consistent colours of your theme.
 * Consider matching your callouts to your Obsidian theme for a cohesive look.
-* You can even use transparent or darkened backgrounds to create layered effects.
+* You can also use custom icons from the [Lucide Icon Library](https://lucide.dev/) to make your callouts more visually appealing.
