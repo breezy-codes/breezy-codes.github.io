@@ -1,8 +1,8 @@
-# I sucked at maths in highschool!
+# I sucked at maths in highschool
 
 Imagine thinking you're not cut out for academic success because high school was a battleground where victory seemed impossible. Now, fast forward a few years, and picture yourself receiving accolades for your mathematical success in university. Sounds like a dream? Well, it became my reality. From barely scraping by in high school to having my mathematical reports published in the Deakin Maths Yearbook – twice in a single year – my journey is a demonstration of the fact that past struggles don't define your future potential. This isn't just my story; it's a beacon of hope for anyone who's ever felt defeated by their academic journey. If you've ever doubted your capabilities or felt overwhelmed by educational hurdles, this story is especially for you.
 
-## Oh High school….
+## Oh High school…
 
 Yep, as the title hints, I was far from a math wizard in high school. To be honest, I wasn't exactly acing any of my subjects. But here's the kicker – it really doesn't matter. Not in the grand scheme of things. My high school years were a blend of minimal effort and maximum daydreaming, partly due to un-diagnosed ADHD—a challenge I only faced head-on in adulthood. I was that student who passed, yes, but just barely, doing the absolute minimum to get by.
 
@@ -25,4 +25,3 @@ Interestingly, my work on quantum cryptography played a significant role in buil
 ## So! Embrace the Journey
 
 If there's anything my journey has taught me, it's that past academic struggles are not a life sentence. They're merely stepping stones to greater successes. Whether you're battling ADHD, facing academic hurdles, or simply doubting your capabilities, remember this: with the right strategies, support, and mindset, transformation is not just possible; it's inevitable. Your story isn't over; it's just waiting for its next chapter to be written. Share your journey, seek support when needed, and never stop exploring your passions.
-

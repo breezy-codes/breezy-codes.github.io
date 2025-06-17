@@ -14,7 +14,7 @@ Figlet is a tool for generating ASCII art from text. Use the appropriate command
 sudo pacman -S figlet
 ```
 
-Then do - 
+Then do -
 
 ```bash
 yay -S figlet-fonts
@@ -34,11 +34,13 @@ sudo apt install figlet figlet-data
 Lolcat adds vibrant rainbow colours to your terminal output, making your Figlet creations even more eye-catching.
 
 ### **For Arch-based Systems:**
+
 ```bash
 sudo pacman -S lolcat
 ```
 
 ### **For Ubuntu-based Systems:**
+
 ```bash
 sudo apt install lolcat
 ```
@@ -46,47 +48,58 @@ sudo apt install lolcat
 ---
 
 ## **Step 4: Verify the Installation**
+
 Ensure everything is set up correctly:
 
 1. **List Available Fonts:**
+
    ```bash
    figlist
    ```
+
    This command will display all of the available figlet font files on your system.
 
 2. **Output all fonts to a txt file:**
 
     To preview all of the available fonts, you can output them to a text file by running the following commands:
+
    ```bash
    cd ~/Desktop
    showfigfonts > figlet_fonts.txt
    ```
+
    This command will save the list of available figlet fonts to a text file named `figlet_fonts.txt`.
    Outputting to a txt file is a handy way to be able to preview **all** of the fonts available to you as there is a lot of them and your terminal may not be able to display them all at once.
    I've also added the output as a page if you'd like to view it [all figlet fonts](content/blog-posts/2025-01-17-using-figlet-and-lolcat.md)
 
 3. **Test Figlet Output:**
-   
+
    Run the following to test Figlet:
+
    ```bash
    figlet -f slant "Success"
    ```
 
 4. **Combine Figlet with Lolcat:**
-   
+
    Add some colour to your output:
+
    ```bash
    figlet -f slant "Success" | lolcat
    ```
+
    You should see a colourful ASCII-styled message in your terminal.
 
     ![alt text](../../img/blogs/figlet/figlet1.png)
+
 ---
 
 ## **Example Usage**
+
 Here are some examples to try:
 
 1. **Custom Welcome Message:**
+
    ```bash
    figlet -f big "Welcome" | lolcat
    ```
@@ -94,7 +107,9 @@ Here are some examples to try:
    ![alt text](../../img/blogs/figlet/figlet2.png)
 
 2. **Dynamic Output:**
+
    Combine Figlet and Lolcat with other commands:
+
    ```bash
    echo "Hello, $(whoami)!" | figlet | lolcat
    ```
@@ -106,9 +121,11 @@ Here are some examples to try:
 Now that you have Figlet working, let’s enhance it with Lolcat’s colourful output.
 
 1. **Basic Test**:  
+
    ```bash
    figlet -f ansi_shadow "HI BREEZY" | lolcat
    ```
+
    This will display a vibrant, rainbow-colored message.
 
    ![alt text](../../img/blogs/figlet/figlet4.png)
@@ -119,28 +136,35 @@ Now that you have Figlet working, let’s enhance it with Lolcat’s colourful o
    - **`-a` (Animation)**:  
      Enables animated colouring that cycles through colours over time.  
      Example:  
+
      ```bash
      figlet -f ansi_shadow "HI BREEZY" | lolcat -a
      ```
+
      ![*(Video: First Animation)*](../../img/blogs/figlet/figlet5.gif)
 
    - **`-d` (Delay)**:  
      Sets the delay in milliseconds for animated frames when `-a` is enabled.  
      Example:  
+
      ```bash
      figlet -f ansi_shadow "HI BREEZY" | lolcat -a -d 5
      ```
+
     ![*(Video: Delayed Animation)*](../../img/blogs/figlet/figlet6.gif)
 
    - **`-F` (Frequency)**:  
      Adjusts the rainbow frequency. Lower values create smoother gradients.  
-     Examples:  
+     Examples:
+  
      ```bash
      figlet -f ansi_shadow "HI BREEZY" | lolcat -F 0.3
      ```
+
      ```bash
      figlet -f ansi_shadow "HI BREEZY" | lolcat -F 0.5
      ```
+
      ```bash
      figlet -f ansi_shadow "HI BREEZY" | lolcat -F 0.7
      ```
@@ -150,21 +174,28 @@ Now that you have Figlet working, let’s enhance it with Lolcat’s colourful o
    - **Without Options**:  
      By default, `lolcat` applies a static rainbow gradient.  
      Example:  
+
      ```bash
      figlet -f ansi_shadow "HI BREEZY" | lolcat
      ```
+
      ![*(Image: Static Gradient)*](../../img/blogs/figlet/figlet8.png)
 
 3. **Creative Uses**:  
    - **Rainbow String**:  
+
      ```bash
      echo "Hello, Breezy!" | lolcat
      ```
+
    - **Animate Directory Listing**:  
+
      ```bash
      ls -la | lolcat -a -d 10
      ```
+
    - **Rainbow File Output**:  
+
      ```bash
      cat yourfile.txt | lolcat -a -d 3
      ```
@@ -181,6 +212,7 @@ Decide on the text you'd like to display, whether to use Lolcat, and which fonts
 2. Add the following line at the very beginning to display your message every time you open the terminal:
 
    (can change the message, font and lolcat options to whatever you'd like)
+
    ```bash
    figlet -f ansi_shadow "HI BREEZY" | lolcat -F 0.3
    ```
@@ -189,7 +221,7 @@ Decide on the text you'd like to display, whether to use Lolcat, and which fonts
 
 Here’s an example of how it looks when I first open my terminal:
 ![alt text](../../img/blogs/figlet/figlet9.png)
-
+ 
 ---
 
 ### **Using Figlet with Custom Colours**
@@ -198,6 +230,7 @@ For a more personalised touch, you can use ANSI colour codes to apply specific c
 
 1. **Run the Following Script**:  
    This script uses a set of predefined ANSI colours to apply vibrant hues to Figlet text, cycling through them line by line:
+
    ```bash
     # Define colors
     colors=(

@@ -14,7 +14,7 @@ Then came 2022, a year I've since coined "The Year of Data Breaches." Witnessing
 
 ## The Eureka Moment:
 
-I've always had a knack for spotting patterns—connecting dots over breakfast cereal is my kind of jam. My curiosity peaked when I saw a news segment about these breaches. Despite the sea of incomprehensible numbers on the screen which were definitely just for show, something clicked. "How cool is this?" I thought. The only catch? My self-proclaimed ineptitude at math, thanks to my high school days (but that's a story for another blog post).
+I've always had a knack for spotting patterns, connecting dots over breakfast cereal is my kind of jam. My curiosity peaked when I saw a news segment about these breaches. Despite the sea of incomprehensible numbers on the screen which were definitely just for show, something clicked. "How cool is this?" I thought. The only catch? My self-proclaimed ineptitude at math, thanks to my high school days (but that's a story for another blog post).
 
 Driven by curiosity, I dove headfirst into researching data breaches. Questions like "Why isn't our data more secure?" and "How do hackers easily snatch our information?" consumed me. This obsession, possibly fueled by my ADHD, led me to explore degrees in cybersecurity.
 
@@ -24,4 +24,4 @@ Fast forward to March 2023, and there I was, embarking on my cybersecurity degre
 
 ## The Takeaway:
 
-If you've made it this far, here's my nugget of wisdom: When you stumble upon something that ignites your curiosity—no matter how unexpected—chase it. The path may not lead where you initially thought, but the journey? It's guaranteed to take you to places beyond your wildest dreams.
+If you've made it this far, here's my nugget of wisdom: When you stumble upon something that ignites your curiosity, no matter how unexpected, chase it. The path may not lead where you initially thought, but the journey? It's guaranteed to take you to places beyond your wildest dreams.
