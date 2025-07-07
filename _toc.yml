@@ -39,5 +39,5 @@ parts:
 #     - file: content/blog-posts/2024-04-03-picking-cybersecurity.md
       - file: content/blog-posts/2024-04-08-sucked-at-maths-in-school.md
         title: I sucked at maths in school
-      - file: content/blog-posts/2025-06-17-making-callouts-obsidian.ipynb
+      - file: content/blog-posts/2025-06-17-making-callouts-obsidian.md
         title: How to do Custom Obsidian Callouts

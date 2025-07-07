@@ -4,11 +4,33 @@ After spending some time experimenting with different ways to style my notes, I 
 
 Callouts are a powerful way to visually style notes in [Obsidian](https://obsidian.md), especially when organising research, study notes, to-do lists, or even documenting your projects. While Obsidian comes with built-in callout styles like `> [!note]`, you can easily create your own custom callouts with a bit of CSS.
 
+![alt text](../../img/blogs/obsidian-callouts/fig6.png)
+
 This post will walk you through how to make your own **custom callout blocks** in Obsidian.
+
+## Table of Contents
+
+- [How to make Custom Callouts in Obsidian](#how-to-make-custom-callouts-in-obsidian)
+  - [Table of Contents](#table-of-contents)
+  - [Steps Overview](#steps-overview)
+    - [Step 1: Enable Custom CSS Snippets](#step-1-enable-custom-css-snippets)
+    - [Step 2: Define a Custom Callout Block in the css file](#step-2-define-a-custom-callout-block-in-the-css-file)
+    - [Step 3: Customise Labels, Icons \& Colours](#step-3-customise-labels-icons--colours)
+    - [Step 4: Using Theme Variables for Consistent Colours](#step-4-using-theme-variables-for-consistent-colours)
+  - [Helpful Tips](#helpful-tips)
+    - [Foldable Callouts](#foldable-callouts)
+    - [Creating a Colour Overlay on a Dark Base](#creating-a-colour-overlay-on-a-dark-base)
+    - [Nesting Callouts](#nesting-callouts)
+  - [My Exact CSS File](#my-exact-css-file)
+  - [Final Tips](#final-tips)
 
 ---
 
-## Step 1: Enable Custom CSS Snippets
+## Steps Overview
+
+The following steps will guide you through creating custom callouts in Obsidian:
+
+### Step 1: Enable Custom CSS Snippets
 
 Before we begin, make sure you’ve enabled CSS snippets in Obsidian:
 
@@ -20,7 +42,7 @@ Before we begin, make sure you’ve enabled CSS snippets in Obsidian:
 
 ---
 
-## Step 2: Define a Custom Callout Block in the css file
+### Step 2: Define a Custom Callout Block in the css file
 
 Here’s an example of a custom callout called `figure` with a pink theme and a pencil icon:
 
@@ -48,7 +70,7 @@ And voilà, Obsidian will render it with your defined styles.
 
 ---
 
-## Customise Labels, Icons & Colors
+### Step 3: Customise Labels, Icons & Colours
 
 You can define any name for your callout, it can be `[!theorem]`, `[!tip]`, `[!poetry]`, or whatever suits your workflow. Each one can be styled uniquely by modifying:
 
@@ -112,7 +134,63 @@ This will render as:
 
 ---
 
-## Foldable Callouts
+### Step 4: Using Theme Variables for Consistent Colours
+
+If you want to keep your callout colours consistent with your Obsidian theme, or you just want an easy way to update your colour scheme in one place, you can define custom colour variables using the `:root` selector at the top of your CSS file.
+
+Here’s an example using a Dracula-inspired palette:
+
+```css
+:root {
+    /* Dracula base palette */
+    --drac-bg: #282A37;
+    --drac-pink-rgb: 255, 121, 198;
+    --drac-cyan-rgb: 132, 222, 240;
+    --drac-purple-rgb: 189, 147, 249;
+    --drac-green-rgb: 80, 250, 123;
+    --drac-yellow-rgb: 241, 250, 140;
+    --drac-red-rgb: 255, 85, 85;
+}
+```
+
+Then, reference these variables when creating your callouts:
+
+```css
+/* === QUESTION === */
+.callout[data-callout="question"] {
+    --callout-color: var(--drac-pink-rgb);
+    --callout-icon: lucide-help-circle;
+    background-color: rgba(var(--drac-pink-rgb), 0.2);
+}
+```
+
+This approach keeps your CSS more readable and maintainable, and allows you to easily **change the colour scheme for all your callouts at once** by editing the `:root` variables.
+
+For example, your `theorem` callout could use the purple variable:
+
+```css
+/* === THEOREM === */
+.callout[data-callout="theorem"] {
+    --callout-color: var(--drac-purple-rgb);
+    --callout-icon: lucide-square-sigma;
+    background-color: rgba(var(--drac-purple-rgb), 0.2);
+}
+```
+
+And your `warning` set could use:
+
+```css
+/* === WARNING === */
+.callout[data-callout="warning"] {
+    --callout-color: var(--drac-yellow-rgb);
+    --callout-icon: lucide-alert-triangle;
+    background-color: rgba(var(--drac-yellow-rgb), 0.2);
+}
+```
+
+## Helpful Tips
+
+### Foldable Callouts
 
 You can make callouts foldable by adding `+` or `-` after the label:
 
@@ -133,7 +211,7 @@ This works on both built-in and custom callouts.
 
 ---
 
-## Creating a Colour Overlay on a Dark Base
+### Creating a Colour Overlay on a Dark Base
 
 If you're using a dark theme and want each callout to sit on a consistent dark base while still showing its colour clearly, you can use an **overlay effect** like this (add it into the same CSS file):
 
@@ -169,7 +247,7 @@ This is especially helpful when **nesting** callouts (see below), as it prevents
 
 ---
 
-## Nesting Callouts
+### Nesting Callouts
 
 Yes, you **can nest callouts**, and they’ll render beautifully, especially if you use the background layering technique above.
 
@@ -185,16 +263,175 @@ This will render as:
 
 Each level keeps its own style, icon, and background overlay, making complex structures more readable.
 
-## Useful Links
+## My Exact CSS File
 
-* [📘 Obsidian Callouts Documentation](https://help.obsidian.md/Editing+and+formatting/Callouts)
-* [🎨 Lucide Icon Library](https://lucide.dev/)
+Below is the complete CSS file I use for my custom callouts in Obsidian. The colour variables are defined at the top using the Dracula theme palette, but you can easily swap them out to match your own preferred colour scheme.
 
----
+I use a variety of callouts to visually organise different types of content in my notes. For instance, `figure` and `equation` callouts highlight key diagrams and mathematical expressions, while `theorem` is used to frame formal results. I use `example` to walk through concepts, `todo` to track ongoing tasks, and `tip` or `important` to emphasise helpful insights. For summarising ideas, I use `abstract` and `summary`, and I reserve `bug`, `fail`, and `error` to flag issues or areas needing revision. Each callout is styled with a Dracula-inspired colour overlay to maintain visual consistency across my workspace.
+
+```{admonition} Custom Callouts CSS
+:class: note, dropdown
+    ```css
+    :root {
+        /* Dracula base palette*/
+        --drac-bg: #282A37;
+        --drac-pink-rgb: 255, 121, 198;
+        --drac-cyan-rgb: 132, 222, 240;
+        --drac-purple-rgb: 189, 147, 249;
+        --drac-green-rgb: 80, 250, 123;
+        --drac-yellow-rgb: 241, 250, 140;
+        --drac-red-rgb: 255, 85, 85;
+    }
+
+    /* Base background for all callouts */
+    .callout {
+        background-color: var(--drac-bg) !important;
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Overlay using callout color with opacity */
+    .callout::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgb(var(--callout-color), 0.3);
+        pointer-events: none;
+        z-index: 0;
+        border-radius: var(--radius-s);
+    }
+
+    /* Ensure content stays above the overlay */
+    .callout > * {
+        position: relative;
+        z-index: 1;
+    }
+
+    /* === FIGURE === */
+    .callout[data-callout="figure"] {
+        --callout-color: var(--drac-pink-rgb);
+        --callout-icon: lucide-pencil;
+        background-color: rgba(var(--drac-pink-rgb), 0.2);
+    }
+
+    /* === QUESTION === */
+    .callout[data-callout="question"] {
+        --callout-color: var(--drac-pink-rgb);
+        --callout-icon: lucide-help-circle;
+        background-color: rgba(var(--drac-pink-rgb), 0.2);
+    }
+
+    /* === TODO === */
+    .callout[data-callout="todo"] {
+        --callout-color: var(--drac-cyan-rgb);
+        --callout-icon: lucide-list-check;
+        background-color: rgba(var(--drac-cyan-rgb), 0.2);
+    }
+
+    /* === THEOREM === */
+    .callout[data-callout="theorem"] {
+        --callout-color: var(--drac-purple-rgb);
+        --callout-icon: lucide-square-sigma;
+        background-color: rgba(var(--drac-purple-rgb), 0.2);
+    }
+
+    /* === EQUATION === */
+    .callout[data-callout="equation"] {
+        --callout-color: var(--drac-purple-rgb);
+        --callout-icon: lucide-calculator;
+        background-color: rgba(var(--drac-purple-rgb), 0.2);
+    }
+
+    /* === EXAMPLE === */
+    .callout[data-callout="example"] {
+        --callout-color: var(--drac-cyan-rgb);
+        --callout-icon: lucide-book-open;
+        background-color: rgba(var(--drac-cyan-rgb), 0.2);
+    }
+
+    /* === CITE & QUOTE === */
+    .callout[data-callout="cite"],
+    .callout[data-callout="quote"] {
+        --callout-color: var(--drac-yellow-rgb);
+        --callout-icon: lucide-quote;
+        background-color: rgba(var(--drac-yellow-rgb), 0.2);
+    }
+
+    /* === BUG === */
+    .callout[data-callout="bug"] {
+        --callout-color: var(--drac-red-rgb);
+        --callout-icon: lucide-bug;
+        background-color: rgba(var(--drac-red-rgb), 0.2);
+    }
+
+    /* === DANGER & ERROR === */
+    .callout[data-callout="danger"],
+    .callout[data-callout="error"] {
+        --callout-color: var(--drac-red-rgb);
+        --callout-icon: lucide-zap;
+        background-color: rgba(var(--drac-red-rgb), 0.2);
+    }
+
+    /* === FAIL, FAILURE, MISSING === */
+    .callout[data-callout="fail"],
+    .callout[data-callout="failure"],
+    .callout[data-callout="missing"] {
+        --callout-color: var(--drac-red-rgb);
+        --callout-icon: lucide-x;
+        background-color: rgba(var(--drac-red-rgb), 0.2);
+    }
+
+    /* === CHECK, DONE, SUCCESS === */
+    .callout[data-callout="check"],
+    .callout[data-callout="done"],
+    .callout[data-callout="success"] {
+        --callout-color: var(--drac-green-rgb);
+        --callout-icon: lucide-check;
+        background-color: rgba(var(--drac-green-rgb), 0.2);
+    }
+
+    /* === ABSTRACT, SUMMARY, TLDR === */
+    .callout[data-callout="abstract"],
+    .callout[data-callout="summary"],
+    .callout[data-callout="tldr"] {
+        --callout-color: var(--drac-green-rgb);
+        --callout-icon: lucide-file-text;
+        background-color: rgba(var(--drac-green-rgb), 0.2);
+    }
+
+    /* === HINT, IMPORTANT, TIP === */
+    .callout[data-callout="hint"],
+    .callout[data-callout="important"],
+    .callout[data-callout="tip"] {
+        --callout-color: var(--drac-green-rgb);
+        --callout-icon: lucide-flame;
+        background-color: rgba(var(--drac-green-rgb), 0.2);
+    }
+
+    /* === ATTENTION, CAUTION, WARNING === */
+    .callout[data-callout="attention"],
+    .callout[data-callout="caution"],
+    .callout[data-callout="warning"] {
+        --callout-color: var(--drac-yellow-rgb);
+        --callout-icon: lucide-alert-triangle;
+        background-color: rgba(var(--drac-yellow-rgb), 0.2);
+    }
+
+    /* === FAQ, HELP === */
+    .callout[data-callout="faq"],
+    .callout[data-callout="help"] {
+        --callout-color: var(--drac-yellow-rgb);
+        --callout-icon: lucide-help-circle;
+        background-color: rgba(var(--drac-yellow-rgb), 0.2);
+    }
+    ```
+```
 
 ## Final Tips
 
-* You can define as many custom callouts as you like, one for each purpose.
-* Keep your styles readable by using soft background `rgba` values or stick to the consistent colours of your theme.
-* Consider matching your callouts to your Obsidian theme for a cohesive look.
-* You can also use custom icons from the [Lucide Icon Library](https://lucide.dev/) to make your callouts more visually appealing.
+* Define custom callout names that suit your workflow, like `note`, `figure`, `equation`, `bug`, or `reminder`.
+* Use `:root` variables to keep your colors consistent across different callouts and future-proof your CSS.
+* Match your callouts to your Obsidian theme for a more cohesive visual experience.
+* Use icons from [Lucide](https://lucide.dev/) to make each callout instantly recognizable.
+* Experiment with different background opacities to find the right balance for readability.
+* Consider using foldable callouts to keep your notes tidy and focused.
