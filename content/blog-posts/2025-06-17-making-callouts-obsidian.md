@@ -549,4 +549,3 @@ I use a variety of callouts to visually organise different types of content in m
 * Use icons from [Lucide](https://lucide.dev/) to make each callout instantly recognizable.
 * Experiment with different background opacities to find the right balance for readability.
 * Consider using foldable callouts to keep your notes tidy and focused.
-
