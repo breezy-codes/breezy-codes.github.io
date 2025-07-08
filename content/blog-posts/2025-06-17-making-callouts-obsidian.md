@@ -53,7 +53,7 @@ Here’s an example of a custom callout called `figure` with a pink theme and a 
 
 ```css
 /* === FIGURE === */
-.callout[data-callout="figure"] {
+.callout[data-callout^="figure"] {
     --callout-color: 255, 121, 198;
     --callout-icon: lucide-pencil;
     background-color: rgba(255, 121, 198, 0.2);
@@ -86,7 +86,7 @@ Here's another example using a theorem block:
 
 ```css
 /* === THEOREM === */
-.callout[data-callout="theorem"] {
+.callout[data-callout^="theorem"] {
     --callout-color: 189, 147, 249;
     --callout-icon: lucide-square-sigma;
     background-color: rgba(189, 147, 249, 0.2);
@@ -110,9 +110,9 @@ Most of the ones I've made have been for equations, theorems, figures or other m
 
 ```css
 /* === ATTENTION, CAUTION, WARNING === */
-.callout[data-callout="attention"],
-.callout[data-callout="caution"],
-.callout[data-callout="warning"] {
+.callout[data-callout^="attention"],
+.callout[data-callout^="caution"],
+.callout[data-callout^="warning"] {
     --callout-color: 241, 250, 140;
     --callout-icon: lucide-alert-triangle;
     background-color: rgba(241, 250, 140, 0.2);
@@ -162,7 +162,7 @@ Then, reference these variables when creating your callouts:
 
 ```css
 /* === QUESTION === */
-.callout[data-callout="question"] {
+.callout[data-callout^="question"] {
     --callout-color: var(--drac-pink-rgb);
     --callout-icon: lucide-help-circle;
     background-color: rgba(var(--drac-pink-rgb), 0.2);
@@ -175,7 +175,7 @@ For example, your `theorem` callout could use the purple variable:
 
 ```css
 /* === THEOREM === */
-.callout[data-callout="theorem"] {
+.callout[data-callout^="theorem"] {
     --callout-color: var(--drac-purple-rgb);
     --callout-icon: lucide-square-sigma;
     background-color: rgba(var(--drac-purple-rgb), 0.2);
@@ -186,7 +186,7 @@ And your `warning` set could use:
 
 ```css
 /* === WARNING === */
-.callout[data-callout="warning"] {
+.callout[data-callout^="warning"] {
     --callout-color: var(--drac-yellow-rgb);
     --callout-icon: lucide-alert-triangle;
     background-color: rgba(var(--drac-yellow-rgb), 0.2);
@@ -220,7 +220,7 @@ I added a blank (neutral) callout style that lets you group a section of text in
 
 ```css
 /* === NEUTRAL (unstyled, no title, no icon, no styling) === */
-.callout[data-callout="neutral"] {
+.callout[data-callout^="neutral"] {
     --callout-color: 255, 255, 255;
     --callout-icon: none;
     background-color: unset !important;
@@ -230,12 +230,12 @@ I added a blank (neutral) callout style that lets you group a section of text in
     margin: 0 !important;
 }
 
-.callout[data-callout="neutral"]::before {
+.callout[data-callout^="neutral"]::before {
     display: none !important;
 }
 
 /* Hide the title bar completely */
-.callout[data-callout="neutral"] .callout-title {
+.callout[data-callout^="neutral"] .callout-title {
     display: none !important;
 }
 ```
