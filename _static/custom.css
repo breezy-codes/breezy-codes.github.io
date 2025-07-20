@@ -3,6 +3,29 @@
   --light-purple: #AB94F4;
   --medium-purple: #644B9F;
   --dark-purple: #361F77;
+
+  --drac-bg: #282A37;
+  --drac-pink-rgb: 255, 121, 198;
+  --drac-cyan-rgb: 132, 222, 240;
+  --drac-purple-rgb: 189, 147, 249;
+  --drac-green-rgb: 80, 250, 123;
+  --drac-yellow-rgb: 241, 250, 140;
+  --drac-red-rgb: 255, 85, 85;
+
+  --drac-rainbow-gradient: linear-gradient(
+    90deg,
+    rgba(var(--drac-pink-rgb), 0.8) 0%,
+    rgba(var(--drac-purple-rgb), 0.8) 10%,
+    rgba(var(--drac-cyan-rgb), 0.8) 20%,
+    rgba(var(--drac-green-rgb), 0.8) 30%,
+    rgba(var(--drac-yellow-rgb), 0.8) 40%,
+    rgba(var(--drac-pink-rgb), 0.8) 50%,
+    rgba(var(--drac-purple-rgb), 0.8) 60%,
+    rgba(var(--drac-cyan-rgb), 0.8) 70%,
+    rgba(var(--drac-green-rgb), 0.8) 80%,
+    rgba(var(--drac-yellow-rgb), 0.8) 90%,
+    rgba(var(--drac-pink-rgb), 0.8) 100%
+  );
 }
 
 /* Link styling: neon green accents */
@@ -18,10 +41,47 @@ img {
   margin-right: auto; /* Automatically adjusts right margin */
 }
 
-/* Headings: Use bronze color for better visibility */
-h1, h2, h3, h4, h5, h6, .headerlink {
-  color: var(--medium-purple) !important;
+h1, h2, h3, h4, h5, h6 {
   text-align: center;
+  position: relative;
+  padding-bottom: 0.3em;
+}
+
+h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 4px;
+  border-radius: 10px;
+  background: var(--drac-rainbow-gradient);
+  bottom: 0;
+}
+
+h1 { color: rgb(var(--drac-pink-rgb)); font-size: 2.25em; font-weight: 600; }
+h2 { color: rgb(var(--drac-purple-rgb)); font-size: 2em; font-weight: 600; }
+h3 { color: rgb(var(--drac-cyan-rgb)); font-size: 1.75em; font-weight: 600; }
+h4 { color: rgb(var(--drac-green-rgb)); font-size: 1.5em; font-weight: 500; }
+h5 { color: rgb(var(--drac-yellow-rgb)); font-size: 1.25em; font-weight: 500; }
+h6 { color: rgb(var(--drac-pink-rgb)); font-size: 1em; font-weight: 400; }
+
+/* Optional: Horizontal rule rainbow bar with emoji */
+hr::after {
+  content: "🌈";
+  display: block;
+  text-align: center;
+  margin-top: -1.5em;
+  font-size: 1.2em;
+}
+hr {
+  border: none;
+  height: 4px;
+  border-radius: 4px;
+  background: var(--drac-rainbow-gradient);
+  position: relative;
+  margin: 3em auto;
+  width: 80%;
 }
 
 /* Set the topic title to bronze, even inside nav.contents */
