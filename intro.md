@@ -30,18 +30,17 @@ Through my university subjects and side projects I’ve developed skills in nume
     <img src="https://github-profile-trophy.vercel.app/?username=breezy-codes&theme=onedark&row=1" alt="GitHub Profile Trophies" style="max-width: 100%;" />
 </div>
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+### Languages
 
 <div align="center">
-  <h3>Languages</h3>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=md,py,cpp,cs,dotnet,latex,anaconda,js,java" alt="Languages"/>
   </a>
 </div>
 
+### Tools and Software
+
 <div align="center">
-    <h3>Tools and Softwares</h3>
     <a href="https://skillicons.dev">
       <img src="https://skillicons.dev/icons?i=git,eclipse,vscode,visualstudio,ai,raspberrypi,linux,ubuntu,arch" alt="Tools"/>
     </a>
