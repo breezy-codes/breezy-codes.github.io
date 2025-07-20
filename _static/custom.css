@@ -52,7 +52,7 @@ h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 60%;
+  width: 80%;
   height: 4px;
   border-radius: 10px;
   background: var(--drac-rainbow-gradient);
@@ -286,10 +286,54 @@ html[data-theme="dark"] h3,
 html[data-theme="dark"] h4,
 html[data-theme="dark"] h5,
 html[data-theme="dark"] h6 {
-  color: var(--light-purple) !important;
   text-align: center;
-  padding: 0; /* Ensure padding is reset */
-  margin: 0.5em 0; /* Add consistent margins */
+  padding: 0;
+  margin: 0.5em 0;
+  position: relative;
+}
+
+/* Gradient underline */
+html[data-theme="dark"] h1::after,
+html[data-theme="dark"] h2::after,
+html[data-theme="dark"] h3::after,
+html[data-theme="dark"] h4::after,
+html[data-theme="dark"] h5::after,
+html[data-theme="dark"] h6::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 4px;
+  border-radius: 10px;
+  background: var(--drac-rainbow-gradient);
+  bottom: -0.3em;
+}
+
+/* Specific colors per heading */
+html[data-theme="dark"] h1 { color: rgb(var(--drac-pink-rgb)); font-size: 2.25em; font-weight: 600; }
+html[data-theme="dark"] h2 { color: rgb(var(--drac-purple-rgb)); font-size: 2em; font-weight: 600; }
+html[data-theme="dark"] h3 { color: rgb(var(--drac-cyan-rgb)); font-size: 1.75em; font-weight: 600; }
+html[data-theme="dark"] h4 { color: rgb(var(--drac-green-rgb)); font-size: 1.5em; font-weight: 500; }
+html[data-theme="dark"] h5 { color: rgb(var(--drac-yellow-rgb)); font-size: 1.25em; font-weight: 500; }
+html[data-theme="dark"] h6 { color: rgb(var(--drac-pink-rgb)); font-size: 1em; font-weight: 400; }
+
+/* Rainbow HR with Emoji */
+html[data-theme="dark"] hr {
+  border: none;
+  height: 4px;
+  border-radius: 4px;
+  background: var(--drac-rainbow-gradient);
+  position: relative;
+  margin: 3em auto;
+  width: 80%;
+}
+html[data-theme="dark"] hr::after {
+  content: "🌈";
+  display: block;
+  text-align: center;
+  margin-top: -1.5em;
+  font-size: 1.2em;
 }
 
 html[data-theme="dark"] img:not(.only-dark, .dark-light) {
