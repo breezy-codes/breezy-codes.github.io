@@ -18,6 +18,7 @@ parts:
       - file: content/about-me/publications.md
         title: My Publications
       - file: content/projects.md 
+        title: My Projects
   - caption: Projects
     numbered: false
     chapters:

@@ -52,7 +52,7 @@ h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
+  width: 100%;
   height: 4px;
   border-radius: 10px;
   background: var(--drac-rainbow-gradient);
@@ -81,7 +81,7 @@ hr {
   background: var(--drac-rainbow-gradient);
   position: relative;
   margin: 3em auto;
-  width: 80%;
+  width: 100%;
 }
 
 /* Set the topic title to bronze, even inside nav.contents */
@@ -303,7 +303,7 @@ html[data-theme="dark"] h6::after {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
+  width: 100%;
   height: 4px;
   border-radius: 10px;
   background: var(--drac-rainbow-gradient);
@@ -326,7 +326,7 @@ html[data-theme="dark"] hr {
   background: var(--drac-rainbow-gradient);
   position: relative;
   margin: 3em auto;
-  width: 80%;
+  width: 100%;
 }
 html[data-theme="dark"] hr::after {
   content: "🌈";

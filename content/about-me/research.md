@@ -32,5 +32,6 @@ My interest in research extends beyond my formal studies, encompassing several r
 
 For more information on my academic journey and accomplishments, please visit:
 
-- [Academic and Research Accomplishments](content/accomplishments.md)
-- [Capstone Projects](content/capstone.md)
+- [Academic and Research Accomplishments](content/about-me/accomplishments.md)
+- [Capstone Projects](content/about-me/capstone.md)
+- [My Publications](content/about-me/publications.md)

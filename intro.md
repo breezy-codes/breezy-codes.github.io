@@ -48,17 +48,6 @@ Through my university subjects and side projects I’ve developed skills in nume
 
 ---
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-    <div>
-        <img src="https://github-readme-stats-hvpm.vercel.app/api?username=breezy-codes&count_private=true&show_icons=true&theme=material-palenight&rank_icon=github&border_radius=10" alt="readme stats" width="450" />
-    </div>
-    <div>
-        <img src="https://github-readme-stats-hvpm.vercel.app/api/top-langs/?username=breezy-codes&langs_count=12&layout=compact&theme=material-palenight&border_radius=10&size_weight=0.5&count_weight=0.5" alt="top langs" width="300" />
-    </div>
-</div>
-
----
-
 ## About Me
 
 I originally ventured into Cybersecurity during the rise of Global cyber threats in late 2022. What started out as curiosity quickly turned into me enrolling into my degree!

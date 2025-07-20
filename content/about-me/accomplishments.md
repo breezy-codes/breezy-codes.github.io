@@ -1,5 +1,7 @@
 # Academic Accomplishments
 
+My academic journey has been marked by a strong commitment to excellence, reflected in my high WAM of 95.75. I have received several awards, including the Deakin Scholarship for Excellence and the Associate Dean Summer Research Scholarship. My research interests lie in telecommunications and computational mathematics, with a focus on optical x-haul network design to support reconfigurable O-RAN in 6G networks.
+
 ## Highlights
 
 - **Discrete Mathematics and Cryptography:** Achieved a score of 95 in Discrete Mathematics, which ignited a passion for Cryptography. This interest led me to explore Quantum Computing and tackle the complex topic of Quantum Cryptography. My report on this topic was selected for the *Deakin Maths Yearbook*, making me the first person to be featured twice in the same year. I will also be featured in the 2024 maths yearbook for my work on optical xhaul networks.
@@ -22,7 +24,7 @@
 
 ## Completed Subjects
 
-A list of subjects I have completed, showcasing my strong academic record across a variety of cybersecurity and computer science disciplines.
+A list of subjects I have completed, showcasing my strong academic record across a variety of cybersecurity and computer science disciplines. This includes receiving a grade of 100 in 8 subjects, demonstrating my commitment to excellence and deep understanding of the material.
 
 ::::{grid}
 :gutter: 2
