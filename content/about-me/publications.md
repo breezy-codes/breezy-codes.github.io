@@ -1,0 +1,7 @@
+# My Publications
+
+My research has led to several publications, including conference papers and journal articles. Below is a list of my notable publications:
+
+1. [An Introduction To Cryptography](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=exg3AzgAAAAJ&authuser=1&citation_for_view=exg3AzgAAAAJ:u5HHmVD_uO8C) - This is my first publication, which was featured in the Deakin Maths Yearbook. It provides an overview of cryptographic principles and their applications.
+2. [An exploration into quantum mechanics and how it's changing cryptography](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=exg3AzgAAAAJ&authuser=1&citation_for_view=exg3AzgAAAAJ:u-x6o8ySG0sC) - This publication, also in the Deakin Maths Yearbook, delves into the intersection of quantum mechanics and cryptography, exploring how advancements in quantum computing are reshaping cryptographic methods.
+3. [Optical X-haul for Beyond 5G: Cost-effective Deployment Strategies](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=exg3AzgAAAAJ&authuser=1&citation_for_view=exg3AzgAAAAJ:d1gkVwhDpl0C) - This paper, accepted at the Optical Fiber Communication Conference and Exhibition (OFC) 2025, presents a mathematical model for optical x-haul network design. It focuses on cost-effective deployment strategies for reconfigurable Radio Access Networks (RAN) in Beyond 5G networks.

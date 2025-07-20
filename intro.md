@@ -1,6 +1,6 @@
 # I'm Brianna but you can call me Breezy
 
-I'm currently pursuing an Honours Bachelor's degree in Cybersecurity at Deakin University, with a WAM of 93 and a grade average of 96.8 for 2024. My commitment to academic excellence has earned me awards such as the Deakin Scholarship for Excellence and the Associate Dean Summer Research Scholarship. My Honours research focuses on developing a mathematical framework for optical xhaul network design to support reconfigurable 6G networks using O-RAN technology.
+I'm currently completing an Honours Bachelor's degree in Cybersecurity at Deakin University, with a WAM of 95.75. My dedication to academic excellence has been recognised through awards including the Deakin Scholarship for Excellence and the Associate Dean Summer Research Scholarship. My Honours research focuses on developing a mathematical framework for optical x-haul network design to support reconfigurable 6G networks using O-RAN technology.
 
 ---
 
@@ -8,7 +8,7 @@ I'm currently pursuing an Honours Bachelor's degree in Cybersecurity at Deakin U
 
 Throughout my studies, I've achieved several academic highlights, including features in the *Deakin Maths Yearbook* for my HD reports on Cryptography (SIT192) Quantum Cryptography (SIT281) and Optimisation and Constraint Programming (SIT316). My current research focuses on telecommunication networks, particularly the planning and optimisation of optical xhaul networks to support reconfigurable O-RAN in 6G networks. This work builds on my previous research during the Associate Deakin Research Summer Scholarship, where I initially explored computer networks and developed a strong interest in Radio Access Networks (RAN).
 
-I am now actively working on several papers, including one that has been accepted to the **Optical Fiber Communications Conference (OFC)**. I've finalised a survey paper on reconfigurable RAN for IEEE, which discusses network planning, resource allocation, and the challenges of implementing beyond 5G networks. In progress I'm also working on an extension of the work done in OFC as well as one focused on the operations research side of the problem.
+I recently presented my work at the **Optical Fiber Communications Conference (OFC)**. I have since submitted a paper extending my OFC research, as well as a survey paper on reconfigurable RAN for IEEE, which discusses network planning, resource allocation, and the challenges of implementing beyond 5G networks. I am now actively working on a new paper focused on the operations research aspects of these problems.
 
 For a detailed overview of my accomplishments, visit [Academic and Research Accomplishments](content/accomplishments.md) and see [Research](content/research.md) to learn more about my research projects.
 

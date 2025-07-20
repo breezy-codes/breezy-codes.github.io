@@ -8,7 +8,9 @@
 
 - **Current Honours Research:** Currently undertaking an Honours degree in telecommunications and computational mathematics, where I am developing a mathematical framework for optical xhaul network design. This research builds on my summer work and aligns with my long-term goals in telecommunications.
 
-- **Conference Papers:** First-authored a paper accepted to the Optical Fiber Communication Conference and Exhibition (OFC) 2025, where I presented a mathematical model for optical xhaul network design. I am also working on a paper for the Journal of Optical Communications and Networking (JOCN) and a paper for the field of operations research.
+- **Conference Papers:** First-authored a paper accepted to the Optical Fiber Communication Conference and Exhibition (OFC) 2025, where I presented a mathematical model for optical xhaul network design.
+
+- **Research Publications:** I've submitted a paper currently under peer review as an extension of my OFC research, as well as a survey paper on reconfigurable RAN for IEEE. These papers discuss network planning, resource allocation, and the challenges of implementing beyond 5G networks. I am also actively working on a new paper focused on the operations research aspects of these problems.
 
 - **Leadership in Capstone Projects:** Served as the team leader in the Capstone A subject, where I led the tutorials team for SplashKit within the Thoth Tech company. My contributions were recognised with a perfect grade of 100 in both Capstone A and Capstone B.
 
@@ -39,15 +41,15 @@ A list of subjects I have completed, showcasing my strong academic record across
 - **Computer Networks** – HD/100
 - **Professional Practices** – HD/85
 - **Data Structures and Algorithms** – HD/95  
+- **Network Forensics** – HD/97
+- **Computer Forensics** – HD/97
+- **Cybersecurity Analytics** – HD/95
 :::
 
 :::{grid-item}
 :columns: 12 6
 :child-align: justify
 
-- **Network Forensics** – HD/97
-- **Computer Forensics** – HD/97
-- **Cybersecurity Analytics** – HD/95
 - **Applied Frontiers of Cryptography** – RMIT
 - **Optimisation and Constraint Programming** – HD/100
 - **Advanced Network Security** – HD/90
@@ -55,6 +57,10 @@ A list of subjects I have completed, showcasing my strong academic record across
 - **Capstone A** – HD/100
 - **Capstone B** – HD/100
 - **Honours Subject 1** – HD/97
+- **Honours Subject 2** – HD/100
+- **Malware Analysis** – HD/100
+- **Advanced Network Forensics** – HD/100
+- **Functions Relations and Graphs** – HD/100
 :::
 ::::
 
