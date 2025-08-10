@@ -30,21 +30,30 @@ Through my university subjects and side projects I’ve developed skills in nume
     <img src="https://github-profile-trophy.vercel.app/?username=breezy-codes&theme=onedark&row=1" alt="GitHub Profile Trophies" style="max-width: 100%;" />
 </div>
 
+<br>
+
+<div align="center">
+    <img width="450" align="center" style="display: inline-block; vertical-align: top;" src="https://github-readme-stats-hvpm.vercel.app/api?username=breezy-codes&count_private=true&show_icons=true&theme=material-palenight&rank_icon=github&border_radius=10" alt="readme stats" />
+    <img width="300" align="center" style="display: inline-block; vertical-align: top;" src="https://github-readme-stats-hvpm.vercel.app/api/top-langs/?username=breezy-codes&&langs_count=12&layout=compact&count_private=true&theme=material-palenight&border_radius=10&size_weight=0.5&count_weight=0.5&hide=html" alt="top langs" />
+</div>
+
+
 ### Languages
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=md,py,cpp,cs,dotnet,latex,anaconda,js,java" alt="Languages"/>
+    <img src="https://skillicons.dev/icons?i=md,py,cpp,cs,dotnet,latex,anaconda,js,java&perline=9&theme=dark&background=transparent" alt="Languages"/>
   </a>
 </div>
 
 ### Tools and Software
 
 <div align="center">
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=git,eclipse,vscode,visualstudio,ai,raspberrypi,linux,ubuntu,arch" alt="Tools"/>
-    </a>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,eclipse,vscode,visualstudio,ai,raspberrypi,linux,ubuntu,arch&perline=9&theme=dark&background=transparent" alt="Tools"/>
+  </a>
 </div>
+
 
 ---
 
