@@ -455,3 +455,8 @@ nav.bd-links .current > a {
   color: var(--lighter-purple);
   font-weight: 600;
 }
+
+img[src*="skillicons.dev"] {
+  background: none !important;
+  border-radius: 0 !important; /* optional: remove rounded corners */
+}
