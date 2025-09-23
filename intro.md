@@ -119,3 +119,6 @@ To learn more about my Capstone contributions, please visit [Capstone Projects](
 ## Get in Touch
 
 If you'd like to learn more about my work or get in touch, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/brianna-laird).
+
+![alt text](img/projects/project-readmes/phoebe1.JPG)
+![alt text](img/projects/project-readmes/phoebe2.JPG)
