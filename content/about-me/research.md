@@ -1,36 +1,45 @@
 # Research
 
-My research is on telecommunications and computational mathematics, with a specific focus on optimising network infrastructure for the future of wireless communication. Below is an overview of my Honours research, plans for a PhD, and ongoing contributions to academic research in this field.
+My research lies at the intersection of **telecommunications** and **applied mathematics**, with a focus on optimising network infrastructure for future wireless communication systems. Below is an overview of my Honours research, current PhD direction, and ongoing academic contributions.
 
 ## Motivation
 
-Growing up in rural Australia, I have experienced firsthand the challenges of limited network access and unreliable connectivity. This personal connection motivates my work in developing efficient and accessible network solutions that can address the connectivity gaps in underserved regions. My research is driven by the goal of making high-quality network access achievable in all environments, particularly rural and remote areas, through optimised, cost-effective network models.
+Growing up in rural Australia, I experienced firsthand the challenges of limited network access and unreliable connectivity. These experiences motivated my interest in developing **efficient, resilient, and accessible network solutions** to address connectivity gaps in underserved regions. This motivation has since extended into my PhD research, shaped in part by living through the **2019–2020 Black Summer bushfires**, during which many coastal communities lost telecommunications services for extended periods.
+
+As a result, my work is driven by the goal of enabling **cost-effective, high-quality communication networks** that remain **robust under both everyday operating conditions and disruptive natural events**, with a particular emphasis on mathematically grounded models for **network resilience, recovery, and adaptation**.
 
 ## Honours Research
 
-Currently, I am pursuing an Honours Bachelor's degree at Deakin University with my honours in telecommunications and computational mathematics. My Honours research focuses on building a mathematical framework for **optical xhaul network design** to support cost-effective, scalable deployment strategies for **reconfigurable Radio Access Networks (RAN)** and O-RAN in B5G networks.
+I completed my **Honours Bachelor’s degree at Deakin University** in telecommunications and applied mathematics. My Honours research focused on developing a **mathematical framework for optical x-haul network design**, supporting **cost-effective and scalable deployment strategies** for **reconfigurable Radio Access Networks (RAN)** and **O-RAN architectures** in beyond 5G (B5G) networks.
 
-This project aims to balance performance, scalability, and affordability by leveraging mathematical and computational models. The core components of my research include:
+The project balanced performance, scalability, and affordability through rigorous mathematical modelling and optimisation. Core components of this research included:
 
-- **Network Planning and Optimisation**: Developing efficient layouts and configurations for optical xhaul networks that enhance network performance and accessibility.
-- **Resource Allocation**: Creating strategies to dynamically allocate resources within RAN to ensure optimal network performance under various conditions.
-- **Mathematical Modelling and Simulation**: Employing computational mathematics to simulate network scenarios, enabling the evaluation of scalability and flexibility in different xhaul configurations.
+- **Network Planning and Optimisation**: Designing efficient optical x-haul layouts to improve performance, coverage, and deployment cost.
+- **Resource Allocation**: Developing strategies for dynamic allocation of resources within RAN architectures.
+- **Mathematical Modelling and Simulation**: Using applied mathematics to evaluate scalability, flexibility, and trade-offs across different x-haul configurations.
 
-I recently had a paper accepted to the Optical Fiber Communication Conference and Exhibition (OFC) 2025, where I presented a mathematical model for optical xhaul network design. This model was developed prior to my Honours research and has since been expanded and refined to support my current work. I'm also working on a paper currently for the Journal of Optical Communications and Networking (JOCN) on the extension of the model from OFC. As well as a paper targeted to the field of operations research on the problem.
+This work led to a paper presented at the **Optical Fiber Communications Conference (OFC)**, followed by an extended journal version published in the *Journal of Optical Communications and Networking (JOCN)*.
 
-## Future PhD Plans
+## PhD Research Direction
 
-After completing my Honours research, I plan to pursue a PhD starting in late 2025, with a continued emphasis on **reconfigurable RAN** and **beyond 5G networks**. My PhD research will expand on my Honours work, with more of a focus on dynamic reconfiguration and adaptive network design to meet the evolving demands of future wireless communication technologies. Exploring the use of different functional splits and designs to achieve optimal network performance and scalability will be a key aspect of my PhD research.
+I am currently enrolled in a **Doctor of Philosophy (PhD)** at Deakin University. My doctoral research builds on my Honours work and shifts focus toward **disaster recovery and disaster-resilient telecommunications networks**, with particular emphasis on **natural hazards** such as bushfires, floods, and extreme weather events.
+
+My PhD research investigates **mathematically grounded resilience frameworks** for network design, including optimisation, reconfiguration, and recovery strategies that enable networks to adapt under disruption. This work draws heavily on **operations research, optimisation theory, and applied modelling**, with applications to next-generation RAN and x-haul infrastructures.
 
 ## Ongoing Research and Contributions
 
-My interest in research extends beyond my formal studies, encompassing several research-related activities:
+My research activities extend beyond formal coursework and include the following:
 
-- **Associate Deakin Research Summer Scholarship**: During the 2023/2024 summer, I was awarded this scholarship, where I initially focused on **computer networks**. I soon shifted my research towards **Radio Access Networks (RAN)**, developing a strong interest in **O-RAN** and **6G resource allocation**. This experience provided a solid foundation in network planning and optimisation, which continues to guide my Honours and PhD research. I was also awarded this scholarship again for the 2024/2025 summer, where I continued my research into RAN and xhaul networks.
+- **Associate Deakin Research Summer Scholarships (2023/2024, 2024/2025, 2025/2026):**  
+  - *2023/2024 & 2024/2025:* Focused on computer networks before transitioning to **Radio Access Networks (RAN)**, **O-RAN**, and **6G resource allocation**, establishing a strong foundation in network planning and optimisation.  
+  - *2025/2026:* Concentrated on **advanced optimisation theory**, specifically **splitting methods and Bregman divergence–based approaches** for the **Weber problem in infinite-dimensional spaces**, with emphasis on convergence properties and algorithmic efficiency.
 
-- **Academic Publications**: In addition to my recent conference acceptance at OFC 2025, I've submitted a survey paper on **reconfigurable RAN** for IEEE, which discusses network planning, resource allocation, and the challenges of implementing beyond 5G networks. This paper aims to provide a comprehensive overview of the current state of research in this area and highlight the potential for future advancements. I've also submitted a paper extending my OFC research, which is currently under peer review. This paper focuses on the mathematical modelling aspects of optical xhaul network design and its implications for future network architectures.
+- **Academic Publications:**  
+  - Conference paper presented at **OFC**, with an extended version **published in *JOCN***.  
+  - Author of a **survey paper on reconfigurable RAN** submitted to IEEE, covering network planning, resource allocation, and beyond 5G challenges.  
+  - **Three additional papers currently under peer review**, spanning telecommunications network optimisation and operations research–oriented modelling.
 
-For more information on my academic journey and accomplishments, please visit:
+For more information on my academic background and research outputs, please visit:
 
 - [Academic and Research Accomplishments](content/about-me/accomplishments.md)
 - [Capstone Projects](content/about-me/capstone.md)

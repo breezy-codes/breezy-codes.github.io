@@ -1,14 +1,16 @@
 # I'm Brianna but you can call me Breezy
 
-I'm currently completing an Honours Bachelor's degree in Cybersecurity at Deakin University, with a WAM of 95.75. My dedication to academic excellence has been recognised through awards including the Deakin Scholarship for Excellence and the Associate Dean Summer Research Scholarship. My Honours research focuses on developing a mathematical framework for optical x-haul network design to support reconfigurable 6G networks using O-RAN technology.
+I have completed an Honours Bachelor’s degree in Cybersecurity at Deakin University, graduating with first class honours and a WAM of 96. My academic performance has been recognised through awards including the Deakin Scholarship for Excellence and the Associate Dean Summer Research Scholarship.
+
+My Honours research focused on developing a mathematical framework for optical x-haul network design to support reconfigurable 6G networks using O-RAN architectures. Building on this foundation, I am now enrolled in a Doctor of Philosophy (PhD) at Deakin University. My doctoral research extends this work into disaster recovery and disaster-resilient network design, with a particular focus on natural hazards and their impact on telecommunications infrastructure. The research emphasises mathematical modelling, optimisation, and network resilience to support robust and adaptive communication networks under disruptive events.
 
 ---
 
 ## My Academic Journey
 
-Throughout my studies, I've achieved several academic highlights, including features in the *Deakin Maths Yearbook* for my HD reports on Cryptography (SIT192) Quantum Cryptography (SIT281) and Optimisation and Constraint Programming (SIT316). My current research focuses on telecommunication networks, particularly the planning and optimisation of optical xhaul networks to support reconfigurable O-RAN in 6G networks. This work builds on my previous research during the Associate Deakin Research Summer Scholarship, where I initially explored computer networks and developed a strong interest in Radio Access Networks (RAN).
+Throughout my studies, I have achieved several academic highlights, including features in the Deakin Maths Yearbook for my HD reports in Cryptography (SIT192), Quantum Cryptography (SIT281), and Optimisation and Constraint Programming (SIT316). My research focuses on telecommunications networks, particularly the planning and optimisation of optical x-haul networks to support reconfigurable O-RAN architectures for 6G networks. This work builds on my research conducted under the Associate Deakin Research Summer Scholarship, where I initially explored computer networks and developed a strong interest in Radio Access Networks (RAN).
 
-I recently presented my work at the **Optical Fiber Communications Conference (OFC)**. I have since submitted a paper extending my OFC research, as well as a survey paper on reconfigurable RAN for IEEE, which discusses network planning, resource allocation, and the challenges of implementing beyond 5G networks. I am now actively working on a new paper focused on the operations research aspects of these problems.
+I presented this research at the Optical Fiber Communications Conference (OFC), with the extended version of this work subsequently published in the Journal of Optical Communications and Networking (JOCN). I also currently have a survey paper on telecommunication network planning and dimensioning methodologies under review.
 
 For a detailed overview of my accomplishments, visit [Academic and Research Accomplishments](content/accomplishments.md) and see [Research](content/research.md) to learn more about my research projects.
 
