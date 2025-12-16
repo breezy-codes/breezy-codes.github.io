@@ -32,12 +32,9 @@ html:
   favicon: favicon.png
   use_issues_button: false
   use_repository_button: false
+  extra_css:
+    - _static/custom.css
 
 sphinx:
   extra_extensions:
     - sphinx_proof
-
-
-html:
-  extra_css:
-    - _static/custom.css
