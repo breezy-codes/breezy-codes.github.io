@@ -20,7 +20,7 @@ At the outset, I wasn't entirely sure how to approach this task. I had just comp
 
 Below is the Python code used to automate the form spamming process:
 
-```py
+```python
 import requests
 from faker import Faker
 import time

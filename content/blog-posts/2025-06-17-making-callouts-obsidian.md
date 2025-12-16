@@ -10,27 +10,6 @@ This post will walk you through how to make your own **custom callout blocks** i
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=breezy-codes&repo=Obsidian-Callouts&show_owner=true&)
 
-## Table of Contents
-
-- [How to make Custom Callouts in Obsidian](#how-to-make-custom-callouts-in-obsidian)
-  - [Table of Contents](#table-of-contents)
-  - [Steps Overview](#steps-overview)
-    - [Step 1: Enable Custom CSS Snippets](#step-1-enable-custom-css-snippets)
-    - [Step 2: Define a Custom Callout Block in the css file](#step-2-define-a-custom-callout-block-in-the-css-file)
-    - [Step 3: Customise Labels, Icons \& Colours](#step-3-customise-labels-icons--colours)
-    - [Step 4: Using Theme Variables for Consistent Colours](#step-4-using-theme-variables-for-consistent-colours)
-  - [Helpful Tips](#helpful-tips)
-    - [Foldable Callouts](#foldable-callouts)
-    - [Blank Callout](#blank-callout)
-    - [Creating a Colour Overlay on a Dark Base](#creating-a-colour-overlay-on-a-dark-base)
-    - [Nesting Callouts](#nesting-callouts)
-    - [Scrollable Callouts](#scrollable-callouts)
-      - [How to preserve styling for scrollable callouts](#how-to-preserve-styling-for-scrollable-callouts)
-  - [My Exact CSS File](#my-exact-css-file)
-  - [Final Tips](#final-tips)
-
----
-
 ## Steps Overview
 
 The following steps will guide you through creating custom callouts in Obsidian:

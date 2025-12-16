@@ -220,8 +220,9 @@ Decide on the text you'd like to display, whether to use Lolcat, and which fonts
 3. Save the file and restart your terminal to see the magic in action.
 
 Here’s an example of how it looks when I first open my terminal:
+
 ![alt text](../../img/blogs/figlet/figlet9.png)
- 
+
 ---
 
 ### **Using Figlet with Custom Colours**
@@ -255,6 +256,7 @@ For a more personalised touch, you can use ANSI colour codes to apply specific c
    ```
 
    Here's how the output will look:
+
    ![alt text](../../img/blogs/figlet/figlet11.png)
 
 2. **Customise It**:  
@@ -263,6 +265,7 @@ For a more personalised touch, you can use ANSI colour codes to apply specific c
 
 3. **Preview Colours**:  
    Here’s an ANSI colour chart to help you choose:
+
    ![alt text](../../img/blogs/figlet/figlet10.png)
 
 4. **Enjoy Your Setup**:  

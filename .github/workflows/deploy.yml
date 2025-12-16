@@ -31,17 +31,15 @@ jobs:
       - name: Build the Jupyter Book
         run: jupyter-book build .
 
-      # Add CNAME
+      # Ensure the CNAME file is in the built HTML directory
       - name: Add CNAME file
-        run: |
-          mkdir -p docs/_build/html
-          echo "briannalaird.com" > docs/_build/html/CNAME
+        run: echo "briannalaird.com" > _build/html/CNAME
 
-      # Upload artifact
+      # Upload the book's HTML as an artifact (Updated to v3)
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "docs/_build/html"
+          path: "_build/html"
 
       # Deploy the book's HTML to GitHub Pages (Updated to v4)
       - name: Deploy to GitHub Pages

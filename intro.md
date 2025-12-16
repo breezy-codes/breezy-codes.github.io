@@ -39,13 +39,14 @@ Through my university subjects and side projects I’ve developed skills in nume
     <img width="350" align="center" style="display: inline-block; vertical-align: top;" src="https://github-readme-stats-hvpm.vercel.app/api?username=breezy-codes&count_private=true&show_icons=true&theme=material-palenight&rank_icon=github&border_radius=10" alt="readme stats" />
     <img width="200" align="center" style="display: inline-block; vertical-align: top;" src="https://github-readme-stats-hvpm.vercel.app/api/top-langs/?username=breezy-codes&&langs_count=12&layout=compact&count_private=true&theme=material-palenight&border_radius=10&size_weight=0.5&count_weight=0.5&hide=html" alt="top langs" />
 </div>
---->
+
 
 <div align="center">
   <a href="https://wakatime.com">
     <img src="https://wakatime.com/share/@breezycodes/d469186e-6f43-4a61-ae32-4888869f2817.png" width="500" alt="WakaTime Stats" />
   </a>
 </div>
+--->
 
 ### Languages
 

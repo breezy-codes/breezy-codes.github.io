@@ -28,12 +28,9 @@ My academic journey has been marked by a strong commitment to excellence, reflec
 
 A list of subjects I have completed, showcasing my strong academic record across a variety of cybersecurity and computer science disciplines. This includes receiving a grade of 100 in 8 subjects, demonstrating my commitment to excellence and deep understanding of the material.
 
-::::{grid}
-:gutter: 2
-:margin: 1
+::::{grid} 1 1 2 2
 
-:::{grid-item}
-:columns: 12 6
+:::{card}
 
 - **Introduction to Programming (C++)** – D/70
 - **Object Oriented Programming (C#)** – HD/96
@@ -50,9 +47,7 @@ A list of subjects I have completed, showcasing my strong academic record across
 - **Cybersecurity Analytics** – HD/95
 :::
 
-:::{grid-item}
-:columns: 12 6
-:child-align: justify
+:::{card}
 
 - **Applied Frontiers of Cryptography** – RMIT
 - **Optimisation and Constraint Programming** – HD/100
@@ -66,42 +61,5 @@ A list of subjects I have completed, showcasing my strong academic record across
 - **Malware Analysis** – HD/100
 - **Advanced Network Forensics** – HD/100
 - **Functions Relations and Graphs** – HD/100
-:::
-::::
-
-# Certifications
-
-::::{grid}
-:gutter: 3 4 4 4
-:margin: 1 2 1 2
-
-:::{grid-item}
-:columns: 12 6 6 6
-:child-align: center
-
-**Certified Secure Computer User**  
-*EC Council - 2023*
-
-```{image} ../../img/content/CASE.png
-:width: 500px
-:class: sd-m-auto
-:name: CASE
-```
-
-:::
-
-:::{grid-item}
-:columns: 12 6 6 6
-:child-align: center
-
-**Certified Application Security Engineer**  
-*EC Council - 2023*
-
-```{image} ../../img/content/CSCU.png
-:width: 500px
-:class: sd-m-auto
-:name: CSCU
-```
-
 :::
 ::::
