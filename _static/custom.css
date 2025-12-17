@@ -460,3 +460,7 @@ img[src*="skillicons.dev"] {
   background: none !important;
   border-radius: 0 !important; /* optional: remove rounded corners */
 }
+
+.bd-content .sd-card {
+  border: none !important;
+}
